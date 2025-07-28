@@ -1,0 +1,11 @@
+<div class="admonition admonition-warning" style="background: #fff8d6; border-left: 4px solid #ffc107; border-radius: 6px; margin: 1.5rem 0; padding: 1rem 1.25rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div class="admonition-title{% if body %} has-content{% endif %}" style="color: #ffc107; font-weight: 600; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+    <i class="fas fa-exclamation-triangle" style="color: #ffc107;"></i>
+    {% if title %}{{ title }}{% else %}Warning{% endif %}
+  </div>
+  {% if body %}
+  <div class="admonition-content" style="line-height: 1.6; color: #333;">
+    {{ body | markdown | safe }}
+  </div>
+  {% endif %}
+</div>

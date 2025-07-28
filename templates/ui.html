@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1 class="title">{{ page.title }}</h1>
+      
+      <p>This page demonstrates the various UI components available for use in blog posts and content.</p>
+
+      <h2>Admonitions</h2>
+      
+      <p>Admonitions are special callout boxes that can be used to highlight important information, warnings, tips, and more.</p>
+
+      <h3>Note</h3>
+      {{ macros::note(title="Note", content="This is a note admonition. Use it for general information that readers should be aware of.") }}
+
+      <h3>Info</h3>
+      {{ macros::info(title="Information", content="This is an info admonition. Use it to provide additional context or explanatory information.") }}
+
+      <h3>Tip</h3>
+      {{ macros::tip(title="Pro Tip", content="This is a tip admonition. Use it to share helpful advice or best practices with your readers.") }}
+
+      <h3>Warning</h3>
+      {{ macros::warning(title="Warning", content="This is a warning admonition. Use it to alert readers about potential issues or things to be careful about.") }}
+
+      <h3>Danger</h3>
+      {{ macros::danger(title="Danger", content="This is a danger admonition. Use it for critical warnings about things that could cause serious problems.") }}
+
+      <h3>Success</h3>
+      {{ macros::success(title="Success", content="This is a success admonition. Use it to highlight positive outcomes or successful completions.") }}
+
+      <h3>Example</h3>
+      {{ macros::example(title="Code Example", content="This is an example admonition. Use it to showcase code snippets, usage examples, or demonstrations.") }}
+
+      <h3>Quote</h3>
+      {{ macros::quote(title="Quote", content="This is a quote admonition. Use it for highlighting quotes, testimonials, or important statements from others.") }}
+
+      <h2>Usage in Blog Posts</h2>
+      
+      <p>To use admonitions in your blog posts, use the shortcode syntax:</p>
+
+      <h3>Shortcode Examples</h3>
+      <pre><code>{% raw %}{{%/* note(title="Important Note") */%}}
+This is the content of the note. You can use **markdown** here.
+{{%/* end */%}}
+
+{{%/* warning(title="Be Careful") */%}}
+This is a warning message with important information.
+{{%/* end */%}}
+
+{{%/* tip() */%}}
+You can omit the title to use the default title.
+{{%/* end */%}}{% endraw %}</code></pre>
+
+      <h3>Available Shortcodes</h3>
+      <ul>
+        <li><code>note</code> - General notes</li>
+        <li><code>warning</code> - Important warnings</li>  
+        <li><code>tip</code> - Helpful tips</li>
+      </ul>
+
+      <p>More shortcodes can be created for other admonition types as needed.</p>
+
+      <h3>Available Types</h3>
+      <ul>
+        <li><code>note</code> - General notes (blue)</li>
+        <li><code>info</code> - Informational content (teal)</li>
+        <li><code>tip</code> - Helpful tips (green)</li>
+        <li><code>warning</code> - Warnings (yellow)</li>
+        <li><code>danger</code> - Critical warnings (red)</li>
+        <li><code>success</code> - Success messages (green)</li>
+        <li><code>example</code> - Code examples (purple)</li>
+        <li><code>quote</code> - Quotes and citations (gray)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock content %}

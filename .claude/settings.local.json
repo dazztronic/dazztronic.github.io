@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(zola build:*)",
+      "Bash(zola check:*)",
+      "Bash(git add:*)",
+      "Bash(fd:*)",
+      "Bash(git commit:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rg:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:www.getzola.org)",
+      "WebFetch(domain:wiki.php.net)",
+      "Bash(zola check:*)",
+      "Bash(zola serve:*)"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": false
+}

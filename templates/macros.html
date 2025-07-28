@@ -1,0 +1,177 @@
+{# Empty macros file to satisfy template requirements #}
+
+{% macro social_links(social_config) %}
+{# Simple social links macro #}
+{% if social_config %}
+<p class="social-links">
+  {% for social in social_config %}
+  <a href="{{ social.url }}" target="_blank" rel="noopener" title="{{ social.name }}">
+    <span class="icon">
+      <i class="fab fa-{{ social.name | lower }}"></i>
+    </span>
+  </a>
+  {% endfor %}
+</p>
+{% endif %}
+{% endmacro social_links %}
+
+{% macro page_publish_metadata(page) %}
+{# Page metadata macro #}
+{% if page.date %}
+<div class="page-meta">
+  <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+</div>
+{% endif %}
+{% endmacro page_publish_metadata %}
+
+{% macro page_content_metadata(page) %}
+{# Page content metadata macro #}
+<div class="content-meta">
+  {% if page.date %}
+  <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+  {% endif %}
+  {% if page.taxonomies.authors %}
+  • by {{ page.taxonomies.authors | join(sep=", ") }}
+  {% endif %}
+  {% if page.reading_time %}
+  • {{ page.reading_time }} min read
+  {% endif %}
+</div>
+{% endmacro page_content_metadata %}
+
+{% macro render_categories(categories) %}
+{# Render categories as tags with links #}
+{% if categories %}
+<div class="categories">
+  <strong>Categories:</strong>
+  {% for category in categories %}
+  <a href="/categories/{{ category | slugify }}/" class="tag is-primary is-light" style="text-decoration: none;">{{ category }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+{% endmacro render_categories %}
+
+{% macro render_tags(tags) %}
+{# Render tags with links #}
+{% if tags %}
+<div class="tags-list">
+  <strong>Tags:</strong>
+  {% for tag in tags %}
+  <a href="/tags/{{ tag | slugify }}/" class="tag is-info is-light" style="text-decoration: none;">{{ tag }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+{% endmacro render_tags %}
+
+{# Admonition Macros #}
+{% macro admonition(type, title, content) %}
+{# Main admonition macro - supports multiple types #}
+
+{# Set variables based on type #}
+{% if type == "note" %}
+  {% set icon = "fa-sticky-note" %}
+  {% set color = "#3498db" %}
+  {% set bg_color = "#e8f4fd" %}
+  {% set border_color = "#3498db" %}
+{% elif type == "info" %}
+  {% set icon = "fa-info-circle" %}
+  {% set color = "#17a2b8" %}
+  {% set bg_color = "#d6ecf0" %}
+  {% set border_color = "#17a2b8" %}
+{% elif type == "tip" %}
+  {% set icon = "fa-lightbulb" %}
+  {% set color = "#28a745" %}
+  {% set bg_color = "#d4edda" %}
+  {% set border_color = "#28a745" %}
+{% elif type == "warning" %}
+  {% set icon = "fa-exclamation-triangle" %}
+  {% set color = "#ffc107" %}
+  {% set bg_color = "#fff8d6" %}
+  {% set border_color = "#ffc107" %}
+{% elif type == "danger" %}
+  {% set icon = "fa-exclamation-circle" %}
+  {% set color = "#dc3545" %}
+  {% set bg_color = "#f8d7da" %}
+  {% set border_color = "#dc3545" %}
+{% elif type == "success" %}
+  {% set icon = "fa-check-circle" %}
+  {% set color = "#28a745" %}
+  {% set bg_color = "#d4edda" %}
+  {% set border_color = "#28a745" %}
+{% elif type == "example" %}
+  {% set icon = "fa-code" %}
+  {% set color = "#6f42c1" %}
+  {% set bg_color = "#f3f0ff" %}
+  {% set border_color = "#6f42c1" %}
+{% elif type == "quote" %}
+  {% set icon = "fa-quote-left" %}
+  {% set color = "#6c757d" %}
+  {% set bg_color = "#f8f9fa" %}
+  {% set border_color = "#6c757d" %}
+{% else %}
+  {# Default to note type #}
+  {% set icon = "fa-sticky-note" %}
+  {% set color = "#3498db" %}
+  {% set bg_color = "#e8f4fd" %}
+  {% set border_color = "#3498db" %}
+{% endif %}
+
+<div class="admonition admonition-{{ type }}" style="
+  background: {{ bg_color }}; 
+  border-left: 4px solid {{ border_color }}; 
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+">
+  <div class="admonition-title{% if content %} has-content{% endif %}" style="
+    color: {{ color }};
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  ">
+    <i class="fas {{ icon }}" style="color: {{ color }};"></i>
+    {% if title %}{{ title }}{% else %}{{ type | title }}{% endif %}
+  </div>
+  {% if content %}
+  <div class="admonition-content" style="line-height: 1.6; color: #333;">
+    {{ content | safe }}
+  </div>
+  {% endif %}
+</div>
+{% endmacro admonition %}
+
+{# Shorthand admonition macros #}
+{% macro note(title, content) %}
+{{ self::admonition(type="note", title=title, content=content) }}
+{% endmacro note %}
+
+{% macro info(title, content) %}
+{{ self::admonition(type="info", title=title, content=content) }}
+{% endmacro info %}
+
+{% macro tip(title, content) %}
+{{ self::admonition(type="tip", title=title, content=content) }}
+{% endmacro tip %}
+
+{% macro warning(title, content) %}
+{{ self::admonition(type="warning", title=title, content=content) }}
+{% endmacro warning %}
+
+{% macro danger(title, content) %}
+{{ self::admonition(type="danger", title=title, content=content) }}
+{% endmacro danger %}
+
+{% macro success(title, content) %}
+{{ self::admonition(type="success", title=title, content=content) }}
+{% endmacro success %}
+
+{% macro example(title, content) %}
+{{ self::admonition(type="example", title=title, content=content) }}
+{% endmacro example %}
+
+{% macro quote(title, content) %}
+{{ self::admonition(type="quote", title=title, content=content) }}
+{% endmacro quote %}

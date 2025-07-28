@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <!-- Left TOC sidebar -->
+      <div class="column is-2">
+        <div class="sticky-sidebar" style="position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto;">
+          <!-- Table of Contents -->
+          {% if page.toc %}
+          <div class="box" style="border: 1px solid var(--corporate-purple-light); border-radius: 12px; padding: 1.5rem 1rem;">
+            <h4 class="title is-6" style="margin-bottom: 1rem; color: var(--corporate-purple-dark); border-bottom: 1px solid var(--corporate-purple-light); padding-bottom: 0.5rem;">
+              Table of Contents
+            </h4>
+            <nav class="toc">
+              <ul style="list-style: none; margin: 0; padding: 0;">
+                {% for item in page.toc %}
+                  <li style="margin-bottom: 0.5rem;">
+                    <a href="{{ item.permalink | safe }}" 
+                       class="toc-link toc-h2" data-target="{{ item.permalink | safe | split(pat='#') | last }}"
+                       style="color: black; text-decoration: none; font-weight: 500; display: block; padding: 0.25rem 0; border-radius: 4px; transition: all 0.2s ease; line-height: 1.1;"
+                       onmouseover="this.style.backgroundColor='var(--corporate-purple-light)'; this.style.paddingLeft='0.5rem';"
+                       onmouseout="this.style.backgroundColor='transparent'; this.style.paddingLeft='0';">
+                      {{ item.title }}
+                    </a>
+                    {# Since articles start with h2 (no h1), top-level items are h2 headings, children are h3 #}
+                    {% if item.children %}
+                      <ul style="list-style: none; margin: 0.5rem 0 0 0; padding: 0;">
+                        {% for child in item.children %}
+                          <li style="margin-bottom: 0.25rem;">
+                            <a href="{{ child.permalink | safe }}" 
+                               class="toc-link toc-h3" data-target="{{ child.permalink | safe | split(pat='#') | last }}"
+                               style="color: black; text-decoration: none; font-size: 0.9rem; display: block; padding: 0.2rem 0; border-radius: 4px; transition: all 0.2s ease; line-height: 1.0;"
+                               onmouseover="this.style.backgroundColor='var(--corporate-lime-light)'; this.style.paddingLeft='0.5rem'; this.style.color='var(--corporate-purple)';"
+                               onmouseout="this.style.backgroundColor='transparent'; this.style.paddingLeft='0'; this.style.color='black';">
+                              {{ child.title }}
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      
+      <!-- Main content column -->
+      <div class="column is-8">
+        <article>
+        <header>
+          <h1 class="title is-2">{{ page.title }}</h1>
+          
+          <div class="blog-card-meta" style="margin-bottom: 2rem;">
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+            {% if page.taxonomies.authors %}
+            • by {{ page.taxonomies.authors | join(sep=", ") }}
+            {% endif %}
+            {% if page.reading_time %}
+            • {{ page.reading_time }} min read
+            {% endif %}
+          </div>
+          
+          {% if page.extra.hero_image %}
+          <figure class="image" style="margin-bottom: 2rem;">
+            <img src="{{ page.path }}{{ page.extra.hero_image }}" alt="{{ page.title }}">
+          </figure>
+          {% endif %}
+          
+        </header>
+        
+        <!-- Article Content -->
+        <div class="content">
+          {{ page.content | safe }}
+        </div>
+        
+        </article>
+      </div>
+      
+      <!-- Right sidebar column -->
+      <div class="column is-2">
+        <div class="sticky-sidebar" style="position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto;">
+          
+          <!-- Article Info Box -->
+          <div class="box" style="border: 1px solid var(--corporate-purple-light); border-radius: 12px;">
+            
+            <!-- Excerpt -->
+            {% if page.extra.excerpt %}
+            <div style="margin-bottom: 1.5rem;">
+              <h4 class="title is-6" style="margin-bottom: 0.75rem; color: var(--corporate-purple-dark); border-bottom: 1px solid var(--corporate-purple-light); padding-bottom: 0.5rem;">
+                Summary
+              </h4>
+              <p style="font-style: italic; color: #666; line-height: 1.5; font-size: 18px;">
+                {{ page.extra.excerpt }}
+              </p>
+            </div>
+            {% endif %}
+            
+            <!-- Categories and Tags -->
+            {% if page.taxonomies.categories or page.taxonomies.tags %}
+            <div>
+              <h4 class="title is-6" style="margin-bottom: 0.75rem; color: var(--corporate-purple-dark); border-bottom: 1px solid var(--corporate-purple-light); padding-bottom: 0.5rem;">
+                Topics
+              </h4>
+              
+              {% if page.taxonomies.categories %}
+              <div style="margin-bottom: 1rem;">
+                <strong style="font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; display: block;">Categories:</strong>
+                <div class="tags" style="margin: 0;">
+                  {% for category in page.taxonomies.categories %}
+                  <a href="/categories/{{ category | slugify }}/" class="tag is-primary is-light" style="text-decoration: none; margin-right: 0.25rem; margin-bottom: 0.25rem;">{{ category }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+              
+              {% if page.taxonomies.tags %}
+              <div>
+                <strong style="font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; display: block;">Tags:</strong>
+                <div class="tags" style="margin: 0;">
+                  {% for tag in page.taxonomies.tags %}
+                  <a href="/tags/{{ tag | slugify }}/" class="tag is-info is-light" style="text-decoration: none; margin-right: 0.25rem; margin-bottom: 0.25rem;">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+          
+          <!-- Related Posts -->
+          {% if page.taxonomies.categories or page.taxonomies.tags %}
+          <div class="box" style="margin-top: 1.5rem; border: 1px solid var(--corporate-purple-light); border-radius: 12px;">
+            <h4 class="title is-6" style="margin-bottom: 1rem; color: var(--corporate-purple-dark); border-bottom: 1px solid var(--corporate-purple-light); padding-bottom: 0.5rem;">
+              Read More
+            </h4>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tocLinks = document.querySelectorAll('.toc-link');
+    const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+    
+    function updateActiveTocLink() {
+        let current = '';
+        const scrollPosition = window.scrollY + 100; // Offset for better UX
+        
+        // Find the current section
+        headings.forEach(heading => {
+            const headingTop = heading.offsetTop;
+            if (scrollPosition >= headingTop) {
+                current = heading.id;
+            }
+        });
+        
+        // Update TOC links
+        tocLinks.forEach(link => {
+            // Remove active class from all links
+            link.style.fontWeight = link.classList.contains('toc-h1') ? '500' : 'normal';
+            link.style.backgroundColor = 'transparent';
+            
+            // Add active styling to current section
+            if (link.dataset.target === current) {
+                link.style.fontWeight = 'bold';
+                link.style.backgroundColor = 'var(--corporate-purple-light)';
+                link.style.paddingLeft = '0.5rem';
+            }
+        });
+    }
+    
+    // Update on scroll
+    window.addEventListener('scroll', updateActiveTocLink);
+    
+    // Update on load
+    updateActiveTocLink();
+});
+</script>
+
+{% endblock content %}

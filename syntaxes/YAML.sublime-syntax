@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+name: YAML
+file_extensions:
+  - yaml
+  - yml
+scope: source.yaml
+
+contexts:
+  main:
+    - match: '#.*$'
+      scope: comment.line.yaml
+    
+    - match: '^(\s*)([a-zA-Z_][a-zA-Z0-9_-]*)\s*(:)(?=\s|$)'
+      captures:
+        2: entity.name.tag.yaml
+        3: punctuation.separator.key-value.yaml
+    
+    - match: '^\s*(-)\s+'
+      captures:
+        1: punctuation.definition.entry.yaml
+    
+    - match: '"[^"]*"'
+      scope: string.quoted.double.yaml
+    
+    - match: "'[^']*'"
+      scope: string.quoted.single.yaml
+    
+    - match: '\b(true|false|null|~)\b'
+      scope: constant.language.yaml
+    
+    - match: '\b\d+(\.\d+)?\b'
+      scope: constant.numeric.yaml
+    
+    - match: '^\s*---\s*$'
+      scope: entity.other.document.begin.yaml
+    
+    - match: '^\s*\.\.\.\s*$'
+      scope: entity.other.document.end.yaml

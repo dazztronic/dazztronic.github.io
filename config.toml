@@ -1,5 +1,7 @@
 # The URL the site will be built for
-base_url = "https://opensoftwareconsulting.github.io"
+base_url = "https://dazztronic.github.io"
+title = "dazztronic"
+description = "analyzed content"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -7,10 +9,39 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+# The theme to use
+theme = "deepthought"
+
+# Generate RSS feeds
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
+# Taxonomies for authors, categories, and tags
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+generate_robots_txt = true
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "Catppuccin-Latte"
+line_numbers = true
+# A list of directories used to search for additional `.sublime-syntax` and `.tmTheme` files.
+extra_syntaxes_and_themes = ["syntaxes"]
 
 [extra]
-# Put all your custom variables here
+subtitle = "analyzed content"
+# DeepThought theme specific
+social = [
+    {name = "github", url = "https://github.com/dazztronic"},
+]
+
+author = { name = "Dazztronic Team" }
+
+# GDPR compliance
+show_cookie_banner = true
+cookie_consent_text = "Diese Website verwendet Cookies zur Verbesserung der Nutzererfahrung."

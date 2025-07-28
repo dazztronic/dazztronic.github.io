@@ -1,0 +1,308 @@
+/* Font Face */
+@font-face {
+  font-family: 'BerlingskeSerif';
+  src: url('/fonts/BerlingskeSerif-Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Corporate Color Variables */
+:root {
+  --corporate-purple: #008670;
+  --corporate-lime: #00ffbf;
+  --corporate-dark: #0d0d0d;
+  --corporate-white: #F7F7F7;
+  --corporate-purple-light: #00c9a7;
+  --corporate-purple-dark: #1f3b4d;
+  --corporate-lime-light: #00c9a7;
+  --corporate-lime-dark: #008670;
+}
+
+/* Base font size */
+body {
+  font-size: 18px;
+  background-color: #f8f9fa;
+  color: var(--corporate-dark);
+}
+
+/* Cookie Banner with Corporate Colors */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--corporate-dark);
+  color: var(--corporate-white);
+  padding: 1rem;
+  z-index: 1000;
+  display: block;
+  box-shadow: 0 -4px 20px rgba(184, 167, 230, 0.3);
+}
+
+.cookie-banner.accepted {
+  display: none;
+}
+
+.cookie-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cookie-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cookie-text a {
+  color: var(--corporate-lime) !important;
+}
+
+.cookie-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cookie-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cookie-btn.accept {
+  background: var(--corporate-lime);
+  color: var(--corporate-dark);
+}
+
+.cookie-btn.accept:hover {
+  background: var(--corporate-lime-dark);
+  transform: translateY(-1px);
+}
+
+.cookie-btn.decline {
+  background: transparent;
+  color: var(--corporate-purple-light);
+  border: 1px solid var(--corporate-purple-light);
+}
+
+.cookie-btn.decline:hover {
+  background: var(--corporate-purple-light);
+  color: var(--corporate-dark);
+}
+
+/* Card layout with Corporate Colors */
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.blog-card {
+  border: 1px solid var(--corporate-purple-light);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: var(--corporate-white);
+  box-shadow: 0 2px 8px rgba(0, 134, 112, 0.15);
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 134, 112, 0.25);
+  border-color: var(--corporate-lime);
+}
+
+.blog-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%);
+}
+
+.blog-card-content {
+  padding: 1.5rem;
+}
+
+.blog-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--corporate-dark);
+}
+
+.blog-card-title a {
+  color: var(--corporate-dark);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.blog-card-title a:hover {
+  color: var(--corporate-purple-dark);
+}
+
+.blog-card-meta {
+  font-size: 0.875rem;
+  color: var(--corporate-purple-dark);
+  margin-bottom: 1rem;
+}
+
+.blog-card-excerpt {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Navigation Corporate Styling */
+.navbar.is-light {
+  background-color: var(--corporate-white) !important;
+  border-bottom: 3px solid var(--corporate-lime);
+  box-shadow: 0 2px 8px rgba(0, 134, 112, 0.1);
+}
+
+.navbar-brand .navbar-item {
+  color: var(--corporate-dark) !important;
+  font-weight: 700;
+  font-family: 'BerlingskeSerif', serif !important;
+}
+
+.navbar-brand .navbar-item:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-item:hover {
+  background-color: var(--corporate-purple-dark) !important;
+  color: var(--corporate-white) !important;
+}
+
+.navbar-item.is-active {
+  background-color: var(--corporate-lime) !important;
+  color: var(--corporate-dark) !important;
+}
+
+/* Tags with Corporate Colors */
+.tag.is-primary {
+  background-color: var(--corporate-purple-dark) !important;
+  color: var(--corporate-white) !important;
+}
+
+.tag.is-primary.is-light {
+  background-color: var(--corporate-purple-dark) !important;
+  color: var(--corporate-white) !important;
+}
+
+.tag.is-info {
+  background-color: var(--corporate-purple) !important;
+  color: var(--corporate-white) !important;
+}
+
+.tag.is-info.is-light {
+  background-color: var(--corporate-purple) !important;
+  color: var(--corporate-white) !important;
+}
+
+/* Buttons with Corporate Colors */
+.button.is-primary {
+  background-color: var(--corporate-purple) !important;
+  border-color: var(--corporate-purple) !important;
+}
+
+.button.is-primary:hover {
+  background-color: var(--corporate-purple-dark) !important;
+  border-color: var(--corporate-purple-dark) !important;
+}
+
+.button.is-info {
+  background-color: var(--corporate-lime) !important;
+  color: var(--corporate-dark) !important;
+  border-color: var(--corporate-lime) !important;
+}
+
+.button.is-info:hover {
+  background-color: var(--corporate-lime-dark) !important;
+  border-color: var(--corporate-lime-dark) !important;
+}
+
+/* Notifications with Corporate Colors */
+.notification.is-info {
+  background-color: var(--corporate-purple-light) !important;
+  color: var(--corporate-dark) !important;
+  border-left: 4px solid var(--corporate-lime);
+}
+
+.notification.is-primary {
+  background-color: var(--corporate-purple) !important;
+  color: var(--corporate-white) !important;
+}
+
+/* Footer styling */
+.footer a {
+  color: var(--corporate-purple-dark);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--corporate-purple);
+  text-decoration: underline;
+}
+
+/* Syntax highlighting line numbers */
+.highlight pre {
+  background: transparent !important;
+}
+
+.highlight .line-numbers {
+  color: var(--corporate-purple-dark);
+  padding-right: 1rem;
+  text-align: right;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  border-right: 1px solid var(--corporate-lime-light);
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.highlight .gutter pre {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.highlight table {
+  margin: 0;
+  padding: 0;
+}
+
+.highlight table td {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.highlight table .gutter {
+  width: 3rem;
+  vertical-align: top;
+}
+
+/* Content h1 spacing */
+.content h1 {
+  margin-bottom: 2rem;
+}
+
+/* Admonition styling */
+.admonition-title.has-content {
+  margin-bottom: 0.75rem;
+}

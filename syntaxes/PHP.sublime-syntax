@@ -1,0 +1,44 @@
+%YAML 1.2
+---
+name: PHP
+file_extensions:
+  - php
+scope: source.php
+
+contexts:
+  main:
+    - match: '\b(class|interface|trait|extends|implements|namespace|use|function|var|public|private|protected|static|abstract|final|const|return|if|else|elseif|while|for|foreach|do|switch|case|default|break|continue|try|catch|finally|throw|new|clone|instanceof|echo|print|include|require|exit|die|array|list|isset|unset|empty|eval|global)\b'
+      scope: keyword.control.php
+    
+    - match: '\b(string|int|integer|bool|boolean|float|double|array|object|resource|null|mixed|callable|iterable|void|never)\b'
+      scope: storage.type.php
+    
+    - match: '\b(true|false|null)\b'
+      scope: constant.language.php
+    
+    - match: '\b\d+(\.\d+)?\b'
+      scope: constant.numeric.php
+    
+    - match: '\$[a-zA-Z_][a-zA-Z0-9_]*'
+      scope: variable.other.php
+    
+    - match: '\b[a-zA-Z_][a-zA-Z0-9_]*\s*\('
+      scope: entity.name.function.php
+    
+    - match: '\b[A-Z][a-zA-Z0-9_]*\b'
+      scope: entity.name.class.php
+    
+    - match: '"[^"]*"'
+      scope: string.quoted.double.php
+    
+    - match: "'[^']*'"
+      scope: string.quoted.single.php
+    
+    - match: '/\*.*?\*/'
+      scope: comment.block.php
+    
+    - match: '//.*$'
+      scope: comment.line.php
+    
+    - match: '#.*$'
+      scope: comment.line.php

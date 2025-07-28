@@ -1,0 +1,208 @@
+{% import 'macros.html' as macros %}
+
+<!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  {% if config.extra.favicon.webmanifest %}
+  <link href='{{ config.extra.favicon.webmanifest }}' rel="manifest" />
+  {% endif %}
+  {% if config.extra.favicon.safari_pinned_tab %}
+  <link color="#5bbad5" href='{{ config.extra.favicon.safari_pinned_tab }}' rel="mask-icon" />
+  {% endif %}
+  {% if config.extra.favicon.favicon_16x16 %}
+  <link href='{{ config.extra.favicon.favicon_16x16 }}' rel="icon" sizes="16x16" type="image/png" />
+  {% endif %}
+  {% if config.extra.favicon.favicon_32x32 %}
+  <link href='{{ config.extra.favicon.favicon_32x32 }}' rel="icon" sizes="32x32" type="image/png" />
+  {% endif %}
+  {% if config.extra.favicon.apple_touch_icon %}
+  <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
+  {% endif %}
+
+  <link rel="stylesheet" href="/styles/academicons.min.css">
+  <link rel="stylesheet" href="/styles/fontawesome.min.css">
+  <link href="/deep-thought.css" rel="stylesheet" />
+  <link href="/styles/styles.css" rel="stylesheet" />
+  {% block user_custom_stylesheet %}
+  {% endblock %}
+
+  <title>
+    {% block title %}
+    {{ config.title }}
+    {% endblock title %}
+  </title>
+
+  {% block analytics %}
+  {% endblock analytics %}
+</head>
+
+<body class="has-background-light">
+  <!-- Cookie Banner (CSS-only) -->
+  {% if config.extra.show_cookie_banner %}
+  <div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-content">
+      <div class="cookie-text">
+        {{ config.extra.cookie_consent_text | default(value="This website uses cookies to improve user experience.") }}
+        <a href="/pages/datenschutz/" style="color: #3498db;">Mehr erfahren</a>
+      </div>
+      <div class="cookie-actions">
+        <button class="cookie-btn accept" onclick="acceptCookies()">Akzeptieren</button>
+        <a href="/pages/impressum/" class="cookie-btn decline">Ablehnen</a>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Check if user has already accepted cookies
+    function checkCookieConsent() {
+      const cookieAccepted = localStorage.getItem('cookieConsent');
+      const banner = document.getElementById('cookie-banner');
+      
+      if (cookieAccepted === 'accepted') {
+        banner.style.display = 'none';
+      }
+    }
+    
+    // Accept cookies and hide banner
+    function acceptCookies() {
+      localStorage.setItem('cookieConsent', 'accepted');
+      const banner = document.getElementById('cookie-banner');
+      banner.style.display = 'none';
+    }
+    
+    // Run on page load
+    document.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+  {% endif %}
+
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="/">
+          {{ config.title }}
+        </a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          <a class="navbar-item has-text-weight-semibold" href="/">Home</a>
+          <a class="navbar-item has-text-weight-semibold" href="/pages/impressum/">Impressum</a>
+          {% if config.build_search_index %}
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  {% block header %}
+  {% endblock %}
+
+  {% block content %}
+  {% endblock %}
+
+  {% if config.build_search_index %}
+  {% block search %}
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  {% endblock %}
+  {% endif %}
+
+  {% block pagination %}
+  {% if paginator.previous or paginator.next %}
+  <section class="section">
+    <div class="container">
+      <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <a class="pagination-previous" href='{{ paginator.previous }}' {% if not paginator.previous %}disabled{% endif %}>
+          <span class="icon">
+            <i class="fas fa-angle-double-left"></i>
+          </span>
+          Previous
+        </a>
+        <a class="pagination-next" href='{{ paginator.next }}' {% if not paginator.next %}disabled{% endif %}>
+          Next page
+          <span class="icon">
+            <i class="fas fa-angle-double-right"></i>
+          </span>
+        </a>
+        <ul class="pagination-list">
+          {% for pager in range(start=1, end=paginator.number_pagers+1) %}
+          <li>
+            <a class="pagination-link {% if paginator.current_index == pager %}is-current{% endif %}" href='{{ paginator.base_url }}{{pager}}' aria-label="Goto page {{pager}}">
+              {{pager}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </section>
+  {% endif %}
+  {% endblock %}
+
+  {% block comment %}
+  {% endblock %}
+
+  {% block footer %}
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        <a href="https://dazztronic.github.io">{{ config.extra.copyright | default(value="© 2025 dazztronic") }}</a>
+      </p>
+      <p>
+        <a href="/pages/impressum/">Impressum</a> | 
+        <a href="/pages/datenschutz/">Datenschutz</a> |
+        <a href="/rss.xml">RSS</a>
+      </p>
+      <p>
+        Powered by <a href="https://www.getzola.org/">Zola</a>
+      </p>
+    </div>
+  </footer>
+  {% endblock %}
+
+  {% if config.build_search_index %}
+  <script src="{{ get_url(path='elasticlunr.min.js') }}"></script>
+  <script src="{{ get_url(path='search_index.' ~ lang ~ '.js') }}"></script>
+  <script src="{{ get_url(path='js/site.js') }}"></script>
+  {% endif %}
+
+  {% block custom_js %}
+  {% endblock %}
+
+  {% block user_custom_js %}
+  {% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}{{ term.name }} - {{ taxonomy.name | title }} - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+
+      <h1 class="title is-2">{{ term.name }}</h1>
+      
+      <p class="subtitle">{{ term.pages | length }} article{{ term.pages | length | pluralize }} in {{ taxonomy.name | title }}</p>
+      
+      {% if term.pages %}
+      <div class="blog-cards">
+        {% for page in term.pages %}
+        <article class="blog-card">
+          {% if page.extra.hero_image %}
+          <img src="{{ page.path }}{{ page.extra.hero_image }}" alt="{{ page.title }}" class="blog-card-image">
+          {% else %}
+          <div class="blog-card-image" style="background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%);"></div>
+          {% endif %}
+          
+          <div class="blog-card-content">
+            <h2 class="blog-card-title">
+              <a href="{{ page.path }}">{{ page.title }}</a>
+            </h2>
+            
+            <div class="blog-card-meta">
+              <div>
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+                {% if page.taxonomies.authors %}
+                • by 
+                {% for author in page.taxonomies.authors %}
+                  <a href="/team/{{ author | slugify }}/" class="has-text-weight-semibold" style="color: var(--corporate-purple); text-decoration: none;">{{ author }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+                {% endif %}
+              </div>
+              {% if page.reading_time %}
+              <div>{{ page.reading_time }} min read</div>
+              {% endif %}
+            </div>
+            
+            {% if page.extra.excerpt %}
+            <div class="blog-card-excerpt">
+              {{ page.extra.excerpt }}
+            </div>
+            {% endif %}
+            
+            <!-- Categories and Tags -->
+            <div style="margin-top: 1rem;">
+              {% if page.taxonomies.categories %}
+              {% for category in page.taxonomies.categories %}
+              <a href="/categories/{{ category | slugify }}/" class="tag is-primary is-light" style="text-decoration: none;">{{ category }}</a>
+              {% endfor %}
+              {% endif %}
+              
+              {% if page.taxonomies.tags %}
+              {% for tag in page.taxonomies.tags %}
+              <a href="/tags/{{ tag | slugify }}/" class="tag is-info is-light" style="text-decoration: none;">{{ tag }}</a>
+              {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      
+      <!-- Call-to-Action -->
+      <div class="box" style="background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%); border: none; margin-top: 3rem;">
+        <div class="has-text-centered">
+          <h3 class="title is-4 mb-3">Benötigen Sie Unterstützung?</h3>
+          <p class="subtitle is-6 mb-4">
+            Wenn Sie bei diesen Themen Unterstützung benötigen, kontaktieren Sie uns gerne. 
+            Unser Team freut sich auf Ihre Nachricht und hilft Ihnen bei Ihren PHP- und Symfony-Projekten.
+          </p>
+          <div class="buttons is-centered">
+            <a href="/pages/impressum/" class="button is-primary is-medium">
+              <span class="icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span>Kontakt aufnehmen</span>
+            </a>
+            <a href="/team/" class="button is-info is-outlined is-medium">
+              <span class="icon">
+                <i class="fas fa-users"></i>
+              </span>
+              <span>Unser Team</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endblock content %}
