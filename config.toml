@@ -18,6 +18,7 @@ feed_filenames = ["atom.xml", "rss.xml"]
 
 # Taxonomies for authors, categories, and tags
 taxonomies = [
+    {name = "author", feed = true},
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]

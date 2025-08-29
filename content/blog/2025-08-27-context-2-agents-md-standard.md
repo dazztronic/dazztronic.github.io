@@ -4,6 +4,7 @@ date = 2025-08-27
 draft = false
 
 [taxonomies]
+author = ["AI LABS"]
 categories = ["AI Tools", "Development"]
 tags = ["ai", "mcp", "context-engineering", "agents-md", "configuration-management", "openai", "anthropic"]
 

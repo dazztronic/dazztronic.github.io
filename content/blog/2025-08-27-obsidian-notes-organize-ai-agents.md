@@ -4,6 +4,7 @@ date = 2025-08-27
 draft = false
 
 [taxonomies]
+author = ["Artem Zhutov"]
 categories = ["Productivity", "AI Tools", "claude code"]
 tags = ["obsidian", "claude-code", "mcp", "smart-connections", "rest-api", "semantic-search", "youtube-transcript-api", "uv"]
 

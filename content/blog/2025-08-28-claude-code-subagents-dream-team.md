@@ -4,6 +4,7 @@ date = 2025-08-28
 draft = false
 
 [taxonomies]
+author = ["Cole Medin"]
 categories = ["AI Tools", "Claude Code"]
 tags = ["youtube", "video", "agentic","workflow", "subagent", "archon"]
 

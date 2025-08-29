@@ -4,6 +4,7 @@ date = 2025-08-28
 draft = false
 
 [taxonomies]
+author = ["AI LABS"]
 categories = ["Claude Code"]
 tags = ["ai", "claude-code", "bash", "automation", "workflow"]
 

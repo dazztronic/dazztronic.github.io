@@ -4,6 +4,7 @@ date = 2025-08-27
 draft = false
 
 [taxonomies]
+author = ["AI LABS"]
 categories = ["Claude Code", "Development Workflow"]
 tags = ["claude-code", "subagents", "agentic-workflows", "ux", "ui", "nextjs", "testing", "performance", "gitingest"]
 
