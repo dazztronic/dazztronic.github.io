@@ -1,5 +1,5 @@
 +++
-title = "Google won&#39;t STOP... They Just Upped the Gemini CLI Again"
+title = "Google won't STOP... They Just Upped the Gemini CLI Again"
 date = 2025-08-29
 draft = false
 

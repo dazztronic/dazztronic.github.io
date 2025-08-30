@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Eskil Steenberg"]
-categories = ["Software architecture for large projects"]
-tags = ["Software architecture for large projects", "Abstraction and generalization in system design", "Modularity and plugin interfaces", "Node-graph paradigms", "Lessons from Unix philosophy", "Unix (operating system paradigm: 'everything is a file')", "Houdini (visual effects software, node-graph based)", "Notch (visual effects software, node-graph based)"]
+categories = ["Development"]
+tags = ["software-architecture", "large-projects", "abstraction", "modularity", "unix-philosophy", "node-graphs", "system-design", "houdini", "notch", "intermediate"]
 
 [extra]
 excerpt = "This video addresses the challenge of architecting large software projects by sharing a philosophy and practical strategies for structuring complex systems so they remain manageable, extensible, and understandable. It is valuable for anyone involved in designing or leading large-scale software efforts, as it focuses on generalizable approaches rather than domain-specific details."

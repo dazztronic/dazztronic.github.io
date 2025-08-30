@@ -26,7 +26,7 @@
   {% endif %}
 
   <link rel="stylesheet" href="/styles/academicons.min.css">
-  <link rel="stylesheet" href="/styles/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link href="/deep-thought.css" rel="stylesheet" />
   <link href="/styles/styles.css" rel="stylesheet" />
   {% block user_custom_stylesheet %}
@@ -96,6 +96,9 @@
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end has-text-centered">
           <a class="navbar-item has-text-weight-semibold" href="/">Home</a>
+          <a class="navbar-item has-text-weight-semibold" href="/categories/">Categories</a>
+          <a class="navbar-item has-text-weight-semibold" href="/author/">Authors</a>
+          <a class="navbar-item has-text-weight-semibold" href="/tags/">Tags</a>
           <a class="navbar-item has-text-weight-semibold" href="/pages/impressum/">Impressum</a>
           {% if config.build_search_index %}
           <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">

@@ -22,9 +22,9 @@
           <a href="{{ page.path }}">
             <img src="{{ page.extra.cover }}" alt="{{ page.title }}" class="blog-card-image">
           </a>
-          {% elif page.extra.hero_image %}
+          {% elif page.extra.cover %}
           <a href="{{ page.path }}">
-            <img src="{{ page.path }}{{ page.extra.hero_image }}" alt="{{ page.title }}" class="blog-card-image">
+            <img src="{{ page.path }}{{ page.extra.cover }}" alt="{{ page.title }}" class="blog-card-image">
           </a>
           {% else %}
           <a href="{{ page.path }}">
