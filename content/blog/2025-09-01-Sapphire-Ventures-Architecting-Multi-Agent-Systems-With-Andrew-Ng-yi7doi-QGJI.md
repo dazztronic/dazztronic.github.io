@@ -1,10 +1,19 @@
----
-title: "Architecting Multi-Agent Systems With Andrew Ng"
-tags: [video, AI, multi-agent systems, agentic workflows, rapid prototyping, automation]
-url: https://www.youtube.com/watch?v=yi7doi-QGJI
-cover: https://img.youtube.com/vi/yi7doi-QGJI/maxresdefault.jpg
-created: 2025-09-01
----
++++
+title = "Architecting Multi-Agent Systems With Andrew Ng"
+date = 2025-09-01
+draft = false
+
+[taxonomies]
+author = ["Andrew Ng", "Sapphire Ventures"]
+categories = ["AI", "Development"]
+tags = ["multi-agent systems", "agentic workflows", "rapid prototyping", "automation"]
+
+[extra]
+excerpt = "This video explores how to architect multi-agent AI systems, focusing on the shift from technology hype to practical application, and the transformative impact of agentic workflows and rapid prototyping on software development."
+video_url = "https://www.youtube.com/watch?v=yi7doi-QGJI"
+video_id = "yi7doi-QGJI"
+cover = "https://img.youtube.com/vi/yi7doi-QGJI/maxresdefault.jpg"
++++
 
 ## Overview
 

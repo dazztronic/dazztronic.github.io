@@ -40,7 +40,7 @@ The solution involves a deep dive into the features of Claude code, including be
 - If errors occur with Serena, keep trying to use it as errors can happen sometimes.
 - Change the behavior of a slash command by leveraging a new MCP server.
 - Copy content from the AI PRP template and add it to the repo for improved searchability with Serena.
-- Run the primer command in Claude to initiate codebase analysis; the process starts with the tree command, reads 'claw.md' and the readme, and then uses Serena for deeper understanding.
+- Run the primer command in Claude to initiate codebase analysis; the process starts with the tree command, reads 'CLAUDE.md' and the readme, and then uses Serena for deeper understanding.
 - Configure 'settings.local.json' for Serena MCP to pre-approve tool usage.
 - Step-by-step process (as stated): 1. Add content to codebase; 2. Run primer command in Claude; 3. Claude uses tree command, reads documentation, then leverages Serena MCP; 4. Pre-approved tools in settings.local.json streamline workflow.
 
@@ -51,7 +51,7 @@ The solution involves a deep dive into the features of Claude code, including be
 - AI PRP template
 - settings.local.json
 - tree command
-- claw.md
+- CLAUDE.md
 - readme
 
 ## 💡 Key Takeaways & Actionable Insights
@@ -69,7 +69,7 @@ The solution involves a deep dive into the features of Claude code, including be
 - Errors may occur when using Serena; do not be discouraged and keep retrying.
 
 ### Best Practices
-- Maintain comprehensive documentation (readme, claw.md) within your codebase for better AI assistant context.
+- Maintain comprehensive documentation (readme, CLAUDE.md) within your codebase for better AI assistant context.
 - Pre-approve tools in configuration files (e.g., settings.local.json) to streamline agentic workflows.
 - Continuously update your codebase with relevant templates and content to enhance search and automation capabilities.
 - Adopt agentic workflows, hooks, sub agents, and parallel agents for scalable and efficient automation.

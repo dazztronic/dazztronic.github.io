@@ -1,10 +1,19 @@
----
-title: "7 AI Terms You Need to Know: Agents, RAG, ASI &amp; More"
-tags: [video, AI, agentic AI, LLM, vector database, RAG, MCP, IBM Granite 4.0]
-url: https://www.youtube.com/watch?v=VSFuqMh4hus
-cover: https://img.youtube.com/vi/VSFuqMh4hus/maxresdefault.jpg
-created: 2025-09-01
----
++++
+title = "7 AI Terms You Need to Know: Agents, RAG, ASI & More"
+date = 2025-09-01
+draft = false
+
+[taxonomies]
+author = ["IBM Technology"]
+categories = ["AI", "Education"]
+tags = ["agentic AI", "LLM", "vector database", "RAG", "MCP", "AI terminology"]
+
+[extra]
+excerpt = "This video explains seven essential AI terms—Agentic AI, Large Reasoning Models, Vector Databases, RAG, MCP, Mixture of Experts, and ASI—providing clear definitions and technical context for understanding current AI systems."
+video_url = "https://www.youtube.com/watch?v=VSFuqMh4hus"
+video_id = "VSFuqMh4hus"
+cover = "https://img.youtube.com/vi/VSFuqMh4hus/maxresdefault.jpg"
++++
 
 ## Overview
 

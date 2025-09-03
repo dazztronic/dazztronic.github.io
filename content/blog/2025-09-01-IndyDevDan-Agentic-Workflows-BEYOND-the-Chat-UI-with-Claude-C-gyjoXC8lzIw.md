@@ -1,10 +1,19 @@
----
-title: "Agentic Workflows: BEYOND the Chat UI with Claude Code SDK and Gemini Nano Banana"
-tags: [video, AI, automation, agentic workflows, file-based engineering, Claude, Claude Code SDK, Gemini Nano Banana (Gemini 2.5 Flash), Python]
-url: https://www.youtube.com/watch?v=gyjoXC8lzIw
-cover: https://img.youtube.com/vi/gyjoXC8lzIw/maxresdefault.jpg
-created: 2025-09-01
----
++++
+title = "Agentic Workflows: BEYOND the Chat UI with Claude Code SDK and Gemini Nano Banana"
+date = 2025-09-01
+draft = false
+
+[taxonomies]
+author = ["IndyDevDan"]
+categories = ["AI", "Development"]
+tags = ["agentic workflows", "file-based engineering", "Claude Code SDK", "automation", "Python"]
+
+[extra]
+excerpt = "This video addresses the limitations of chat-based AI interfaces and demonstrates how to build file-driven, agentic workflows using Claude Code SDK and Gemini Nano Banana to automate complex, repeatable tasks."
+video_url = "https://www.youtube.com/watch?v=gyjoXC8lzIw"
+video_id = "gyjoXC8lzIw"
+cover = "https://img.youtube.com/vi/gyjoXC8lzIw/maxresdefault.jpg"
++++
 
 ## Overview
 

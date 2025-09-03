@@ -1,10 +1,19 @@
----
-title: "How to Build Reliable AI Agents in 2025"
-tags: [video]
-url: https://www.youtube.com/watch?v=T1Lowy1mnEg
-cover: https://img.youtube.com/vi/T1Lowy1mnEg/maxresdefault.jpg
-created: 2025-09-01
----
++++
+title = "How to Build Reliable AI Agents in 2025"
+date = 2025-09-01
+draft = false
+
+[taxonomies]
+author = ["Dave Ebbelaar"]
+categories = ["AI", "Development"]
+tags = ["AI agents", "reliability", "development"]
+
+[extra]
+excerpt = "Comprehensive guide on building reliable AI agents in 2025, covering best practices, methodologies, and practical approaches for creating robust AI systems."
+video_url = "https://www.youtube.com/watch?v=T1Lowy1mnEg"
+video_id = "T1Lowy1mnEg"
+cover = "https://img.youtube.com/vi/T1Lowy1mnEg/maxresdefault.jpg"
++++
 
 ## Overview
 
