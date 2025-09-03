@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://dazztronic.github.io"
 title = "dazztronic"
-description = "analyzed content"
+description = "Expert insights and tutorials on PHP, Symfony, and modern backend development. Learn advanced programming techniques, best practices, and industry trends from experienced developers."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -35,13 +35,29 @@ line_numbers = true
 extra_syntaxes_and_themes = ["syntaxes"]
 
 [extra]
-subtitle = "analyzed content"
+subtitle = "Expert Backend Development Content"
+
+# SEO Configuration
+default_meta_description = "Expert insights and tutorials on PHP, Symfony, and modern backend development. Learn advanced programming techniques, best practices, and industry trends from experienced developers."
+meta_keywords = "PHP, Symfony, backend development, programming tutorials, web development, software engineering, coding best practices"
+twitter_handle = "@dazztronic"
+og_image = "/static/images/og-default.jpg"
+
+# Organization info for structured data
+[extra.organization]
+name = "dazztronic"
+url = "https://dazztronic.github.io"
+logo = "/static/images/logo.png"
+social_profiles = ["https://github.com/dazztronic"]
+
 # DeepThought theme specific
 social = [
     {name = "github", url = "https://github.com/dazztronic"},
 ]
 
-author = { name = "Dazztronic Team" }
+# Author info
+[extra.author]
+name = "Dazztronic Team"
 
 # GDPR compliance
 show_cookie_banner = true

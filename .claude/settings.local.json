@@ -15,7 +15,8 @@
       "WebFetch(domain:www.getzola.org)",
       "WebFetch(domain:wiki.php.net)",
       "Bash(zola check:*)",
-      "Bash(zola serve:*)"
+      "Bash(zola serve:*)",
+      "mcp__sequential-thinking__sequentialthinking"
     ],
     "deny": []
   },
