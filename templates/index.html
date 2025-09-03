@@ -18,8 +18,6 @@
       <article class="blog-card">
         {% if page.extra.cover %}
         <img src="{{ page.extra.cover }}" alt="{{ page.title }}" class="blog-card-image">
-        {% elif page.extra.cover %}
-        <img src="{{ page.path }}{{ page.extra.cover }}" alt="{{ page.title }}" class="blog-card-image">
         {% else %}
         <div class="blog-card-image" style="background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%);"></div>
         {% endif %}

@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Eskil Steenberg"]
 categories = ["Development"]
-tags = ["software-architecture", "large-projects", "abstraction", "modularity", "unix-philosophy", "node-graphs", "system-design", "houdini", "notch", "intermediate"]
+tags = ["software-architecture", "large-projects", "abstraction", "modularity", "unix-philosophy", "node-graphs", "system-design"]
 
 [extra]
 excerpt = "This video addresses the challenge of architecting large software projects by sharing a philosophy and practical strategies for structuring complex systems so they remain manageable, extensible, and understandable. It is valuable for anyone involved in designing or leading large-scale software efforts, as it focuses on generalizable approaches rather than domain-specific details."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/sSpULGNHyoI/maxresdefault.jpg"
 ## Overview
 
 This video addresses the challenge of architecting large software projects by sharing a philosophy and practical strategies for structuring complex systems so they remain manageable, extensible, and understandable. It is valuable for anyone involved in designing or leading large-scale software efforts, as it focuses on generalizable approaches rather than domain-specific details.
-
-![Video Thumbnail](https://img.youtube.com/vi/sSpULGNHyoI/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

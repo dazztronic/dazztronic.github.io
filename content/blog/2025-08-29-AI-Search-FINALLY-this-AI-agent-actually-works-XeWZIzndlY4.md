@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI Search"]
 categories = ["AI"]
-tags = ["automation", "productivity", "sales-outreach", "social-media", "gmail", "google-calendar", "intermediate"]
+tags = ["automation", "productivity", "sales-outreach", "social-media", "gmail", "google-calendar"]
 
 [extra]
 excerpt = "This video demonstrates a fully autonomous AI agent capable of handling complex, real-world tasks like replying to emails, engaging on social media, ordering food, and automating sales outreach. It addresses the need for reliable, practical AI automation that can save significant time and boost productivity for individuals and businesses."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/XeWZIzndlY4/maxresdefault.jpg"
 ## Overview
 
 This video demonstrates a fully autonomous AI agent capable of handling complex, real-world tasks like replying to emails, engaging on social media, ordering food, and automating sales outreach. It addresses the need for reliable, practical AI automation that can save significant time and boost productivity for individuals and businesses.
-
-![Video Thumbnail](https://img.youtube.com/vi/XeWZIzndlY4/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

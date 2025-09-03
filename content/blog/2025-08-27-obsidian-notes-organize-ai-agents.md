@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 author = ["Artem Zhutov"]
-categories = ["Productivity", "AI Tools", "claude code"]
+categories = ["Productivity", "AI Tools"]
 tags = ["obsidian", "claude-code", "mcp", "smart-connections", "rest-api", "semantic-search", "youtube-transcript-api", "uv"]
 
 [extra]
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/OPH4yNvuMr8/maxresdefault.jpg"
 ## 📖 Overview
 
 A deep-dive on turning an Obsidian vault into a **self-organizing system** using **Claude Code** agents plus **Obsidian Bases**. You'll build reliable slash-command workflows for idea capture, YouTube note ingestion (with transcript + thumbnail), and an orchestrator that routes inputs automatically—then enrich notes via **semantic search** across your vault
-
-![Video Thumbnail](https://img.youtube.com/vi/OPH4yNvuMr8/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

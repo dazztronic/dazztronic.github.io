@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Solo Swift Crafter"]
-categories = ["AI-assisted software development"]
-tags = ["AI-assisted software development", "Product Requirements Documentation (PRD.md)", "Solo/indie app development workflow", "iOS app UX best practices", "Effective onboarding of AI agents", "Claude (Anthropic's AI assistant)", "Cursor (AI-powered code editor/agent)", "SwiftUI (for iOS app UI)"]
+categories = ["Development"]
+tags = ["claude code", "prd", "solo-development", "ios-development", "swiftui", "cursor", "ai-assisted-development", "product-requirements"]
 
 [extra]
 excerpt = "This video addresses how to make AI coding assistants like Claude and Cursor significantly more effective by creating and maintaining a high-quality, living PRD.md (Product Requirements Document) directly in your code repository. It matters because most AI-generated code is generic or off-target without clear, contextual product guidance, leading to subpar apps and wasted effort."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/tLXKKQTvC44/maxresdefault.jpg"
 ## Overview
 
 This video addresses how to make AI coding assistants like Claude and Cursor significantly more effective by creating and maintaining a high-quality, living PRD.md (Product Requirements Document) directly in your code repository. It matters because most AI-generated code is generic or off-target without clear, contextual product guidance, leading to subpar apps and wasted effort.
-
-![Video Thumbnail](https://img.youtube.com/vi/tLXKKQTvC44/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["AI Tools", "Development"]
-tags = ["ai", "mcp", "context-engineering", "agents-md", "configuration-management", "openai", "anthropic"]
+tags = ["mcp", "context-engineering", "agents-md", "configuration-management", "openai", "anthropic"]
 
 [extra]
 excerpt = "OpenAI has released agents.md as a standard solution to the context file chaos problem in AI tooling, potentially solving the same type of standardization issue that MCP addressed for tool integration."
@@ -17,8 +17,6 @@ cover = "https://img.youtube.com/vi/Pmc4OfSlhbE/maxresdefault.jpg"
 
 ## 📖 Overview
 OpenAI has released `agents.md` as a standard solution to the context file chaos problem in AI tooling, potentially solving the same type of standardization issue that MCP addressed for tool integration.
-
-![Video Thumbnail](https://img.youtube.com/vi/Pmc4OfSlhbE/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

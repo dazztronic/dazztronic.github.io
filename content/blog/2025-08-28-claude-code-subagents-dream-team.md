@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Cole Medin"]
 categories = ["AI Tools", "Claude Code"]
-tags = ["youtube", "video", "agentic","workflow", "subagent", "archon"]
+tags = ["agentic","workflow", "subagent", "archon"]
 
 [extra]
 excerpt = "This video demonstrates how to build a modular, scalable AI agent factory using Claude Code subagents and Archon for knowledge and task management. It addresses the challenge of orchestrating specialized AI agents for complex coding workflows."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/HJ9VvIG3Rps/maxresdefault.jpg"
 ## Overview
 
 This video demonstrates how to build a modular, scalable AI agent factory using Claude Code subagents and Archon for knowledge and task management. It addresses the challenge of orchestrating specialized AI agents for complex coding workflows, making agentic development more accessible and efficient.
-
-![Video Thumbnail](https://img.youtube.com/vi/HJ9VvIG3Rps/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

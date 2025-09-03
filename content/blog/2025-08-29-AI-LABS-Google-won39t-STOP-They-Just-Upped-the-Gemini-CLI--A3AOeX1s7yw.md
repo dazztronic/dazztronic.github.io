@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["AI"]
-tags = ["AI", "Gemini CLI", "automation", "development", "IDE integration", "Claude Code", "Cursor", "intermediate"]
+tags = ["Gemini CLI", "automation", "development", "IDE integration", "Claude Code", "Cursor"]
 
 [extra]
 excerpt = "This video analyzes the rapid evolution of the Gemini CLI by Google, focusing on its new features, request quotas, and deep IDE integration, and compares it to competitors like Claude Code. It's essential for developers and teams leveraging AI-powered development tools to understand these changes for workflow optimization and competitive advantage."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/A3AOeX1s7yw/maxresdefault.jpg"
 ## Overview
 
 This video analyzes the rapid evolution of the Gemini CLI by Google, focusing on its new features, request quotas, and deep IDE integration, and compares it to competitors like Claude Code. It's essential for developers and teams leveraging AI-powered development tools to understand these changes for workflow optimization and competitive advantage.
-
-![Video Thumbnail](https://img.youtube.com/vi/A3AOeX1s7yw/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

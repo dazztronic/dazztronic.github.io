@@ -5,7 +5,7 @@ draft = false
 
 [taxonomies]
 author = ["AI LABS"]
-categories = ["Claude Code", "Development Workflow"]
+categories = ["Claude Code"]
 tags = ["claude-code", "subagents", "agentic-workflows", "ux", "ui", "nextjs", "testing", "performance", "gitingest"]
 
 [extra]
@@ -17,8 +17,6 @@ cover = "https://img.youtube.com/vi/7Sx0o-41r2k/maxresdefault.jpg"
 
 ## 📖 Overview
 The video demonstrates a **complete, repeatable workflow in Claude Code** that builds polished applications by chaining **subagents** (UX → UI design → implementation → testing → benchmarking), while preserving context and avoiding common failure modes. The approach emphasizes **context capture (MD docs), proactive agent roles, and parallelism** to produce higher-quality results than single-agent prompting.
-
-![Video Thumbnail](https://img.youtube.com/vi/7Sx0o-41r2k/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

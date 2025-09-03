@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["Claude Code"]
-tags = ["ai", "claude-code", "bash", "automation", "workflow"]
+tags = ["claude-code", "bash", "automation", "workflow"]
 
 [extra]
 excerpt = "The video explores how integrating AI agents like Claude Code with Bash and CLI tools enables the automation of complex workflows, transforming how developers interact with code and system utilities."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/1_twhMU9AxM/maxresdefault.jpg"
 ## Overview
 
 The video explores how integrating AI agents like Claude Code with Bash and CLI tools enables the automation of complex workflows, transforming how developers interact with code and system utilities. This approach is significant because it allows users to build powerful, agent-driven applications that streamline daily tasks and leverage existing command-line tools.
-
-![Video Thumbnail](https://img.youtube.com/vi/1_twhMU9AxM/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

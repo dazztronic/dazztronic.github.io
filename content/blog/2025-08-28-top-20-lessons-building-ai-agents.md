@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Cole Medin"]
 categories = ["AI Tools", "Development"]
-tags = ["video", "ai-agent-architecture", "prompt-engineering", "system-prompts", "hallucinations", "ai-agents"]
+tags = ["ai-agent-architecture", "prompt-engineering", "system-prompts", "hallucinations", "ai-agents"]
 
 [extra]
 excerpt = "This video distills the top 20 actionable lessons learned from building hundreds of AI agents, focusing on practical strategies to improve reliability, reduce hallucinations, and build robust agentic systems."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/OFfwN23hR8U/maxresdefault.jpg"
 ## Overview
 
 This video distills the top 20 actionable lessons learned from building hundreds of AI agents, focusing on practical strategies to improve reliability, reduce hallucinations, and build robust agentic systems. It's essential viewing for anyone developing or deploying AI agents who wants to avoid common pitfalls and leverage proven techniques.
-
-![Video Thumbnail](https://img.youtube.com/vi/OFfwN23hR8U/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

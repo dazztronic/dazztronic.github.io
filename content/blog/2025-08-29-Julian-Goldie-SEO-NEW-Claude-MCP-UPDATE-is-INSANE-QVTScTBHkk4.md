@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Julian Goldie SEO"]
-categories = ["Claude AI automation"]
-tags = ["Claude AI", "MCP", "workflow-automation", "reporting", "research", "anthropic", "google-workspace"]
+categories = ["AI Tools"]
+tags = ["claude-ai", "mcp", "workflow-automation", "reporting", "research", "anthropic", "google-workspace"]
 
 [extra]
 excerpt = "This video introduces the major Claude MCP (Model Context Protocol) update, which enables deep, one-click integration of Claude AI with hundreds of apps and tools, transforming it from a standalone AI into a powerful automation and productivity engine. The update is significant because it allows users to automate complex workflows, save time, and leverage AI across their entire business ecosystem."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/QVTScTBHkk4/maxresdefault.jpg"
 ## Overview
 
 This video introduces the major Claude MCP (Model Context Protocol) update, which enables deep, one-click integration of Claude AI with hundreds of apps and tools, transforming it from a standalone AI into a powerful automation and productivity engine. The update is significant because it allows users to automate complex workflows, save time, and leverage AI across their entire business ecosystem.
-
-![Video Thumbnail](https://img.youtube.com/vi/QVTScTBHkk4/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

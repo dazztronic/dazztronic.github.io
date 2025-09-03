@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Anthropic"]
-categories = ["Claude Code (AI coding agent)"]
-tags = ["Claude Code (AI coding agent)", "Context management via markdown files", "Integration into software development lifecycle (including CI/CD and migrations)", "Permission and state management", "Best practices for AI-assisted coding", "Claude Code", "Claude Code SDK", "Git"]
+categories = ["Claude Code"]
+tags = ["claude-code", "context-management", "ci-cd", "migrations", "best-practices", "ai-coding", "sdk", "git"]
 
 [extra]
 excerpt = "This video addresses best practices for using Claude Code, Anthropic's AI-powered coding agent, focusing on how to maximize its effectiveness in real-world software engineering workflows. Viewers should care because it provides actionable strategies to improve productivity, code quality, and collaboration using Claude Code."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/gv0WHhKelSE/maxresdefault.jpg"
 ## Overview
 
 This video addresses best practices for using Claude Code, Anthropic's AI-powered coding agent, focusing on how to maximize its effectiveness in real-world software engineering workflows. Viewers should care because it provides actionable strategies to improve productivity, code quality, and collaboration using Claude Code.
-
-![Video Thumbnail](https://img.youtube.com/vi/gv0WHhKelSE/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

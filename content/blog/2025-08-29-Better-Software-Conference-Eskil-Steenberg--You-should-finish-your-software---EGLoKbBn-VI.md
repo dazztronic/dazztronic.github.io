@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Better Software Conference"]
-categories = ["Software project completion"]
-tags = ["Software project completion", "API stability and backward compatibility", "Software ecosystem trust and adoption", "3D graphics tools and protocols", "Open source and proprietary software distribution", "Verse (real-time 3D networking protocol)", "Laro (subdivision surface modeler)", "Love (procedural first-person action adventure game engine)"]
+categories = ["Development"]
+tags = ["software-completion", "api-stability", "backward-compatibility", "3d-graphics", "open-source", "verse", "laro", "game-engine"]
 
 [extra]
 excerpt = "This talk addresses the critical importance of actually finishing software projects and maintaining stable APIs, highlighting how incomplete or unstable software undermines both individual productivity and the broader software ecosystem."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/EGLoKbBn-VI/maxresdefault.jpg"
 ## Overview
 
 This talk addresses the critical importance of actually finishing software projects and maintaining stable APIs, highlighting how incomplete or unstable software undermines both individual productivity and the broader software ecosystem.
-
-![Video Thumbnail](https://img.youtube.com/vi/EGLoKbBn-VI/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

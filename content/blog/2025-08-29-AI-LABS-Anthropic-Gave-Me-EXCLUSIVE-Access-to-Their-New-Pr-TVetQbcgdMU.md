@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["AI"]
-tags = ["AI", "automation", "development", "browser extensions", "workflow optimization", "Claude", "Claude code", "Claude browser extension"]
+tags = ["automation", "development", "browser extensions", "workflow optimization", "Claude", "Claude code", "Claude browser extension"]
 
 [extra]
 excerpt = "This video reviews Anthropic's new Claude browser extension, demonstrating its advanced capabilities for developers and builders beyond simple browsing or form-filling. It showcases how the extension, combined with Claude code, can automate and enhance complex development workflows, making it highly relevant for those seeking to boost productivity and leverage AI in software projects."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/TVetQbcgdMU/maxresdefault.jpg"
 ## Overview
 
 This video reviews Anthropic's new Claude browser extension, demonstrating its advanced capabilities for developers and builders beyond simple browsing or form-filling. It showcases how the extension, combined with Claude code, can automate and enhance complex development workflows, making it highly relevant for those seeking to boost productivity and leverage AI in software projects.
-
-![Video Thumbnail](https://img.youtube.com/vi/TVetQbcgdMU/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 

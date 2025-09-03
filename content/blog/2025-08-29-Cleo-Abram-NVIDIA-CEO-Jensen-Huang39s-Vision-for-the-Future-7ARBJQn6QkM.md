@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Cleo Abram"]
-categories = ["AI"]
-tags = ["AI", "accelerated computing", "robotics", "deep learning", "digital biology", "NVIDIA GPUs", "Deep Neural Networks (DNNs)", "beginner"]
+categories = ["AI", "Interview"]
+tags = ["nvidia", "accelerated-computing", "robotics", "deep-learning", "digital-biology", "gpu", "neural-networks"]
 
 [extra]
 excerpt = "This video explores NVIDIA CEO Jensen Huang's vision for the future of computing, focusing on how advances in AI, robotics, and accelerated computing will transform industries and daily life. It matters because NVIDIA's innovations are driving fundamental shifts in technology that impact everything from gaming to medicine to transportation."
@@ -18,8 +18,6 @@ cover = "https://img.youtube.com/vi/7ARBJQn6QkM/maxresdefault.jpg"
 ## Overview
 
 This video explores NVIDIA CEO Jensen Huang's vision for the future of computing, focusing on how advances in AI, robotics, and accelerated computing will transform industries and daily life. It matters because NVIDIA's innovations are driving fundamental shifts in technology that impact everything from gaming to medicine to transportation.
-
-![Video Thumbnail](https://img.youtube.com/vi/7ARBJQn6QkM/maxresdefault.jpg)
 
 ## 🔍 Key Insights & Learnings
 
