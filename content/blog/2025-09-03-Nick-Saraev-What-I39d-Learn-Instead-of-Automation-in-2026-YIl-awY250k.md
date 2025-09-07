@@ -86,11 +86,8 @@ Saraev's solution is to stop investing in technical tool mastery and instead dev
 
 - [https://www.skool.com/makerschool/about?ref=e525fc95e7c346999dcec8e0e870e55d](https://www.skool.com/makerschool/about?ref=e525fc95e7c346999dcec8e0e870e55d)
 - [https://cal.com/team/leftclick/discovery?source=youtube-video](https://cal.com/team/leftclick/discovery?source=youtube-video)
-- [https://link.nicksaraev.com/instantly-short](https://link.nicksaraev.com/instantly-short)
-- [https://link.nicksaraev.com/amf-short](https://link.nicksaraev.com/amf-short)
 - [https://console.apify.com/sign-up](https://console.apify.com/sign-up)
 - [https://n8n.partnerlinks.io/h372ujv8cw80](https://n8n.partnerlinks.io/h372ujv8cw80)
-- [https://link.nicksaraev.com/rize-short](https://link.nicksaraev.com/rize-short)
 - [https://www.instagram.com/nick_saraev](https://www.instagram.com/nick_saraev)
 - [https://twitter.com/nicksaraev](https://twitter.com/nicksaraev)
 - [https://nicksaraev.com](https://nicksaraev.com)

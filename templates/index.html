@@ -14,7 +14,7 @@
     {% set blog_section = get_section(path="blog/_index.md") %}
     {% if blog_section.pages %}
     <div class="blog-cards">
-      {% for page in blog_section.pages | slice(end=8) %}
+      {% for page in blog_section.pages | slice(end=16) %}
       <article class="blog-card">
         {% if page.extra.cover %}
         <img src="{{ page.extra.cover }}" alt="{{ page.title }}" class="blog-card-image">
