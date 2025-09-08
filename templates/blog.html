@@ -19,14 +19,6 @@
         {% for page in section.pages %}
         <a href="{{ page.path }}" class="blog-post-link">
           <article class="blog-post-item">
-            <div class="blog-post-image">
-              {% if page.extra.cover %}
-              <img src="{{ page.extra.cover }}" alt="{{ page.title }}">
-              {% else %}
-              <div class="placeholder-image" style="background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%);"></div>
-              {% endif %}
-            </div>
-            
             <div class="blog-post-content">
               <h2 class="blog-post-title">{{ page.title }}</h2>
               
@@ -43,24 +35,36 @@
                 {% endif %}
               </div>
               
-              {% if page.extra.excerpt %}
-              <div class="blog-post-excerpt">
-                {{ page.extra.excerpt }}
-              </div>
-              {% endif %}
-              
-              <div class="blog-post-tags" onclick="event.stopPropagation();">
-                {% if page.taxonomies.categories %}
-                {% for category in page.taxonomies.categories %}
-                <a href="/categories/{{ category | slugify }}/" class="tag is-primary is-light">{{ category }}</a>
-                {% endfor %}
-                {% endif %}
+              <div class="blog-post-body">
+                <div class="blog-post-image">
+                  {% if page.extra.cover %}
+                  <img src="{{ page.extra.cover }}" alt="{{ page.title }}">
+                  {% else %}
+                  <div class="placeholder-image" style="background: linear-gradient(135deg, var(--corporate-purple-light) 0%, var(--corporate-lime-light) 100%);"></div>
+                  {% endif %}
+                </div>
                 
-                {% if page.taxonomies.tags %}
-                {% for tag in page.taxonomies.tags %}
-                <a href="/tags/{{ tag | slugify }}/" class="tag is-info is-light">{{ tag }}</a>
-                {% endfor %}
-                {% endif %}
+                <div class="blog-post-text">
+                  {% if page.extra.excerpt %}
+                  <div class="blog-post-excerpt">
+                    {{ page.extra.excerpt }}
+                  </div>
+                  {% endif %}
+                  
+                  <div class="blog-post-tags" onclick="event.stopPropagation();">
+                    {% if page.taxonomies.categories %}
+                    {% for category in page.taxonomies.categories %}
+                    <a href="/categories/{{ category | slugify }}/" class="tag is-primary is-light">{{ category }}</a>
+                    {% endfor %}
+                    {% endif %}
+                    
+                    {% if page.taxonomies.tags %}
+                    {% for tag in page.taxonomies.tags %}
+                    <a href="/tags/{{ tag | slugify }}/" class="tag is-info is-light">{{ tag }}</a>
+                    {% endfor %}
+                    {% endif %}
+                  </div>
+                </div>
               </div>
             </div>
           </article>
