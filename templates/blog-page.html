@@ -140,6 +140,14 @@
             {% if page.reading_time %}
             • {{ page.reading_time }} min read
             {% endif %}
+            {% if page.extra.video_url %}
+            • <a href="{{ page.extra.video_url }}" target="_blank" rel="noopener noreferrer" style="color: var(--corporate-purple); text-decoration: none;">
+                <span class="icon is-small" style="vertical-align: middle;">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                Video
+              </a>
+            {% endif %}
           </div>
           
           {% if page.extra.cover %}
