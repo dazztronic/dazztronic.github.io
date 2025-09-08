@@ -58,11 +58,7 @@
   {% block user_custom_stylesheet %}
   {% endblock %}
 
-  <title>
-    {% block title %}
-    {{ config.title }}
-    {% endblock title %}
-  </title>
+  <title>dazztronic: {% block title %}{{ config.title }}{% endblock title %}</title>
 
   {% block analytics %}
 
