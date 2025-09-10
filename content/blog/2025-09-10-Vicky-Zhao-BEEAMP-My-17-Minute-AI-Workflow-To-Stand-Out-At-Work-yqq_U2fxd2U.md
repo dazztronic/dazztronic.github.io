@@ -1,0 +1,108 @@
++++
+title = "My 17 Minute AI Workflow To Stand Out At Work"
+date = 2025-09-10
+draft = false
+
+[taxonomies]
+author = ["Vicky Zhao [BEEAMP]"]
+categories = ["Artificial intelligence"]
+tags = ["Artificial intelligence", "Knowledge management", "Information retrieval", "Decision making"]
+
+[extra]
+excerpt = "Vicky Zhao reframes AI-assisted knowledge work by shifting focus from automating outputs to radically upgrading the quality of inputs, leveraging academic research and advanced AI tools to become a source of actionable, high-value insights for teams. Her workflow empowers professionals to move up the value chain—translating dense, peer-reviewed research into practical frameworks—rather than settling for generic, regurgitated AI content. This perspective matters because it offers a concrete path to differentiation and deeper impact in an era of overwhelming, low-quality AI-generated information."
+video_url = "https://www.youtube.com/watch?v=yqq_U2fxd2U"
+video_id = "yqq_U2fxd2U"
+cover = "https://img.youtube.com/vi/yqq_U2fxd2U/maxresdefault.jpg"
++++
+
+## Overview
+
+Vicky Zhao reframes AI-assisted knowledge work by shifting focus from automating outputs to radically upgrading the quality of inputs, leveraging academic research and advanced AI tools to become a source of actionable, high-value insights for teams. Her workflow empowers professionals to move up the value chain—translating dense, peer-reviewed research into practical frameworks—rather than settling for generic, regurgitated AI content. This perspective matters because it offers a concrete path to differentiation and deeper impact in an era of overwhelming, low-quality AI-generated information.
+
+## 🔍 Key Insights & Learnings
+
+### Creator's Unique Angle
+Zhao's distinctive approach is to use AI not as a replacement for thinking, but as a leverage tool to access and synthesize high-quality, peer-reviewed academic research—traditionally inaccessible or too time-consuming for most professionals. She positions herself (and encourages viewers) to act as the 'Harvard Business Review' for their teams, distilling complex research into actionable frameworks tailored to their specific context. Her workflow is contrarian in that it rejects the mainstream use of AI for output automation and instead focuses on input elevation.
+
+### The Core Problem
+The proliferation of mediocre, AI-generated content makes it increasingly difficult to find valuable, actionable knowledge amidst the noise. Most professionals use AI to automate outputs, resulting in average or uninspired results due to poor input quality. The challenge is to consistently deliver differentiated, high-impact insights in a saturated knowledge environment.
+
+### The Solution Approach
+Zhao's methodology centers on a three-step workflow: (1) Use Elicit to identify and summarize top, well-cited academic papers relevant to a practical work challenge; (2) Acquire full-text PDFs of these papers (via Semantic Scholar, Google, or publisher sites); (3) Upload the papers to Notebook LM (Google's AI tool) to extract key findings, frameworks, and actionable insights, then optionally synthesize and contextualize further using Claude. She emphasizes prioritizing papers by citation count for credibility, using AI to navigate and interrogate dense research, and always tracing insights back to source material for rigor.
+
+### Key Insights
+- AI's greatest leverage in knowledge work is in upgrading the quality of your inputs, not automating outputs.
+- You should aim to be the 'HBR' for your organization—translating academic research into actionable, context-specific frameworks.
+- Generic AI outputs are limited by the mediocrity of their training data; only by feeding in higher-quality, peer-reviewed sources can you generate differentiated value.
+- Using AI to process and interrogate academic papers allows non-academics to access and operationalize cutting-edge research.
+- The workflow enables rapid synthesis of complex material, turning months of research into actionable plans in minutes.
+
+### Concepts & Definitions
+- "Knowledge work value chain": The process of gathering input, processing it, generating output, and iteratively improving via feedback.
+- "Garbage in, garbage out": The principle that output quality is limited by input quality, especially true for LLMs.
+- "Being the HBR for your team": Acting as a translator of complex research into practical, actionable insights for your organization.
+- "Notebook LM": An AI tool that only uses user-uploaded sources for analysis, minimizing hallucination and maximizing source fidelity.
+
+### Technical Details & Implementation
+- Uses Elicit to search for and summarize top academic papers, sorted by citation count for credibility.
+- Finds full-text PDFs via Semantic Scholar, Google, or publisher links, bypassing paywalls when possible.
+- Uploads PDFs to Notebook LM, which only uses uploaded sources (reducing hallucination risk), and leverages its autogenerated table of contents and suggested questions to quickly identify relevant sections.
+- Chats with Notebook LM to extract frameworks, then optionally uses Claude to synthesize across multiple sources and generate action plans or matrices.
+- Prioritizes actionable frameworks (e.g., task design matrices) and always traces insights to specific citations within the papers.
+
+### Tools & Technologies
+- Elicit (for academic paper discovery and summarization)
+- Semantic Scholar (for finding paper metadata and sometimes full text)
+- Google (for locating PDFs of papers)
+- Notebook LM by Google (for AI-powered reading, summarization, and interrogation of uploaded PDFs)
+- Claude (for synthesizing insights and generating frameworks from multiple sources)
+
+### Contrarian Takes & Different Approaches
+- Disagrees with the mainstream use of AI for automating outputs; argues that true leverage comes from upgrading inputs.
+- Rejects the idea that only academics or consultants can access and operationalize cutting-edge research.
+- Challenges the notion that AI will make knowledge work easier by automating thinking—insists it makes critical thinking and synthesis more important.
+
+## 💡 Key Takeaways & Actionable Insights
+
+### What You Should Do
+- Stop asking ChatGPT or Google for generic advice—start with Elicit to find the most-cited academic papers on your problem.
+- Always prioritize peer-reviewed, highly cited sources to ensure input quality.
+- Upload full papers to Notebook LM and use its table of contents and suggested questions to zero in on relevant insights without reading the entire document.
+- Extract actionable frameworks (e.g., matrices, action plans) directly from research, and contextualize them for your team's needs.
+- Trace every insight back to its source for credibility and rigor.
+
+### What to Avoid
+- Relying on generic AI outputs or internet search leads to average, uninspired results due to poor input quality.
+- Blindly trusting AI-generated summaries without verifying against source material risks perpetuating inaccuracies.
+- Skipping the step of sourcing peer-reviewed, well-cited research undermines the entire workflow's value.
+
+### Best Practices
+- Always use citation count as a proxy for research credibility.
+- Leverage AI tools that restrict themselves to your uploaded sources to minimize hallucination.
+- Iteratively build a library of high-quality research PDFs for ongoing reference and synthesis.
+- Translate dense research into visual frameworks or matrices to facilitate team understanding and buy-in.
+
+### Personal Stories & Experiences
+- Zhao shares her frustration with generic, buzzword-laden AI outputs and how this led her to develop a workflow focused on input quality.
+- She describes the evolution from being a consumer of HBR/McKinsey-style content to becoming a creator of such value for her own team.
+- She recounts real-world attempts to access paywalled research and the practical workarounds she uses.
+
+### Metrics & Examples
+- Uses citation count as a quantitative filter for research quality.
+- Describes moving from a generic 12-month plan to a research-backed 3-month action plan with measurable key success factors.
+- Mentions the ability to process tens of thousands of words of research in minutes using her workflow.
+
+## Resources & Links
+
+- [https://bit.ly/5mcfconcise](https://bit.ly/5mcfconcise)
+- [https://www.youtube.com/watch?v=VUXeQGsVbqU](https://www.youtube.com/watch?v=VUXeQGsVbqU)
+- [https://youtu.be/lcyHC9HLTzc?si=vT_TksJcWXstpdhW](https://youtu.be/lcyHC9HLTzc?si=vT_TksJcWXstpdhW)
+- [https://youtu.be/5O46Rqh5zHE](https://youtu.be/5O46Rqh5zHE)
+- [https://www.youtube.com/watch?v=ZZFbDrenepY](https://www.youtube.com/watch?v=ZZFbDrenepY)
+- [https://youtu.be/pd36Jay0B_8](https://youtu.be/pd36Jay0B_8)
+- [Video URL](https://www.youtube.com/watch?v=yqq_U2fxd2U)
+
+## Value Assessment
+- **Practical Value:** Immediately Actionable
+- **Uniqueness Factor:** Cutting-Edge Insight
+
