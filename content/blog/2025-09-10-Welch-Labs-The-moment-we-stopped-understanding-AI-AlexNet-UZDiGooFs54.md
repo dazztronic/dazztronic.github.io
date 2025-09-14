@@ -83,7 +83,6 @@ Welch Labs' methodology is to peel back the layers of neural networks, starting 
 
 ## Resources & Links
 
-- [https://www.kiwico.com/welchlabs](https://www.kiwico.com/welchlabs)
 - [https://www.welchlabs.com/resources/5gtnaauv6nb9lrhoz9cp604padxp5o](https://www.welchlabs.com/resources/5gtnaauv6nb9lrhoz9cp604padxp5o)
 - [https://www.welchlabs.com/resources/activation-atlas-poster-mixed5b-13x19](https://www.welchlabs.com/resources/activation-atlas-poster-mixed5b-13x19)
 - [https://www.welchlabs.com/resources/large-activation-atlas-poster-mixed4c-24x36](https://www.welchlabs.com/resources/large-activation-atlas-poster-mixed4c-24x36)

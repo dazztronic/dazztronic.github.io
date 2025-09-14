@@ -83,7 +83,6 @@ Their methodology is to break down the AI landscape into two operational archety
 
 - [https://ibm.biz/BdndTY](https://ibm.biz/BdndTY)
 - [https://ibm.biz/BdeGLe](https://ibm.biz/BdeGLe)
-- [https://ibm.biz/BdndTz](https://ibm.biz/BdndTz)
 - [Video URL](https://www.youtube.com/watch?v=EDb37y_MhRw)
 
 ## Value Assessment

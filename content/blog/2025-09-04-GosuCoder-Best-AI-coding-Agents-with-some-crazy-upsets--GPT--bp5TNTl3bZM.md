@@ -90,7 +90,6 @@ GosuCoder runs extensive, standardized tests across all major and emerging AI co
 - [https://scrimba.com/the-ai-engineer-path-c02v?via=GosuCoder](https://scrimba.com/the-ai-engineer-path-c02v?via=GosuCoder)
 - [https://www.youtube.com/@GosuCoder](https://www.youtube.com/@GosuCoder)
 - [https://x.com/GosuCoder](https://x.com/GosuCoder)
-- [https://www.linkedin.com/in/adamwilliamlarson/](https://www.linkedin.com/in/adamwilliamlarson/)
 - [https://discord.gg/YGS4AJ2MxA](https://discord.gg/YGS4AJ2MxA)
 - [Video URL](https://www.youtube.com/watch?v=bp5TNTl3bZM)
 

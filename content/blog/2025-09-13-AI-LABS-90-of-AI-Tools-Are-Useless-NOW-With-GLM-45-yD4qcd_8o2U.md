@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Software engineering--Artificial intelligence", "Computer programming--Automation"]
+tags = ["Artificial intelligence", "Software engineering", "Computer programming", "Automation"]
 
 [extra]
 excerpt = "AI LABS delivers a sharp, practitioner-focused critique of the current AI coding tool landscape, arguing that most existing tools are now obsolete in light of GLM 4.5's disruptive pricing and performance. Their perspective is rooted in hands-on frustration with incumbent tools and a relentless search for practical, affordable, and reliable coding agents that actually deliver on their promises."
@@ -87,7 +87,6 @@ Their solution is to switch to GLM 4.5, leveraging its dramatically lower pricin
 ## Resources & Links
 
 - [https://go.lindy.ai/ai-builder](https://go.lindy.ai/ai-builder)
-- [https://docs.z.ai/devpack/tool/claude#claude-code](https://docs.z.ai/devpack/tool/claude#claude-code)
 - [https://youtu.be/xckU9n9r8Rs](https://youtu.be/xckU9n9r8Rs)
 - [Video URL](https://www.youtube.com/watch?v=yD4qcd_8o2U)
 

@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Fabio Bergmann"]
-categories = ["Artificial intelligence--Software engineering"]
-tags = ["Artificial intelligence--Software engineering", "Natural language processing--Context management", "Human-computer interaction--Programming environments"]
+categories = ["Artificial intelligence", "Software engineering"]
+tags = ["Artificial intelligence", "Software engineering", "Natural language processing--Context management", "Human-computer interaction--Programming environments"]
 
 [extra]
 excerpt = "Fabio Bergmann delivers a pragmatic, engineering-driven solution to the persistent problem of Claude Code's memory limitations, focusing on context window management as the linchpin for productive coding sessions. His approach is rooted in 'context engineering'—a set of actionable workflows and tool commands that keep the AI focused, prevent context bloat, and dramatically improve output quality. Bergmann's perspective stands out for its blend of technical clarity, hands-on tactics, and a systems-thinking mindset tailored for developers shipping real features fast."

@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Bret Fisher Agentic DevOps"]
-categories = ["Software engineering--Artificial intelligence"]
-tags = ["Software engineering--Artificial intelligence", "DevOps", "Cloud computing", "Containerization (Computer science)"]
+categories = ["Software engineering"]
+tags = ["Software engineering", "DevOps", "Cloud computing", "Containerization"]
 
 [extra]
 excerpt = "Bret Fisher's approach demystifies Docker's rapidly evolving AI stack by breaking down each new feature into practical, developer-centric workflows. His perspective is rooted in hands-on DevOps experience, emphasizing how Docker's AI integrations can be leveraged immediately without heavy SaaS dependencies. This episode uniquely maps the interconnectedness of Docker's AI tools, focusing on real-world agentic development and extensibility."
@@ -108,10 +108,7 @@ Fisher and his guests advocate for a composable, containerized AI stack using Do
 - [https://www.docker.com/products/mcp-catalog-and-toolkit/](https://www.docker.com/products/mcp-catalog-and-toolkit/)
 - [https://github.com/docker/mcp-gateway](https://github.com/docker/mcp-gateway)
 - [https://www.bretfisher.com/newsletter/](https://www.bretfisher.com/newsletter/)
-- [https://www.linkedin.com/in/mikesir87/](https://www.linkedin.com/in/mikesir87/)
-- [https://www.linkedin.com/in/nirmalkmehta/](https://www.linkedin.com/in/nirmalkmehta/)
 - [https://bsky.app/profile/bretfisher.com](https://bsky.app/profile/bretfisher.com)
-- [https://www.linkedin.com/in/bretefisher/](https://www.linkedin.com/in/bretefisher/)
 - [https://x.com/BretFisher](https://x.com/BretFisher)
 - [https://www.bretfisher.com](https://www.bretfisher.com)
 - [https://www.bretfisher.com/courses/](https://www.bretfisher.com/courses/)

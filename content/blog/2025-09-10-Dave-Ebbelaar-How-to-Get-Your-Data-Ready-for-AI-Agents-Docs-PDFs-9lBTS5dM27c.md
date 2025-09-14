@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Dave Ebbelaar"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Information retrieval", "Open source software", "Software engineering--Python (Computer program language)"]
+tags = ["Artificial intelligence", "Information retrieval", "Open source software", "Software engineering"]
 
 [extra]
 excerpt = "Dave Ebbelaar champions a fully open-source, Python-based pipeline for prepping diverse data (PDFs, docs, websites) for AI agents, sidestepping the lock-in and privacy tradeoffs of closed-source SaaS tools. His hands-on walkthrough demystifies the end-to-end process, making robust knowledge extraction accessible and customizable for developers who want full control over their data and stack."

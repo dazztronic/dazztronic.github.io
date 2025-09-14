@@ -85,7 +85,6 @@ Colvin proposes adopting MCP as the backbone for agent communication, leveraging
 ## Resources & Links
 
 - [https://x.com/samuel_colvin](https://x.com/samuel_colvin)
-- [https://www.linkedin.com/in/samuel-colvin/](https://www.linkedin.com/in/samuel-colvin/)
 - [https://github.com/samuelcolvin](https://github.com/samuelcolvin)
 - [https://pydantic.dev/](https://pydantic.dev/)
 - [Video URL](https://www.youtube.com/watch?v=bmWZk9vTze0)

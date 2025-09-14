@@ -92,7 +92,6 @@ Her methodology is a phased roadmap: start by building real applications using p
 - [https://topmate.io/marina_wyss](https://topmate.io/marina_wyss)
 - [https://www.youtube.com/@GratitudeDriven](https://www.youtube.com/@GratitudeDriven)
 - [https://www.youtube.com/@MarinaWyssAI/join](https://www.youtube.com/@MarinaWyssAI/join)
-- [https://ko-fi.com/marinawyss](https://ko-fi.com/marinawyss)
 - [https://www.youtube.com/watch?v=0q_JKNDbEug&t=8s](https://www.youtube.com/watch?v=0q_JKNDbEug&t=8s)
 - [https://www.youtube.com/watch?v=KgolhE7p-KY](https://www.youtube.com/watch?v=KgolhE7p-KY)
 - [https://www.youtube.com/watch?v=JV3pL1_mn2M&t=2s](https://www.youtube.com/watch?v=JV3pL1_mn2M&t=2s)

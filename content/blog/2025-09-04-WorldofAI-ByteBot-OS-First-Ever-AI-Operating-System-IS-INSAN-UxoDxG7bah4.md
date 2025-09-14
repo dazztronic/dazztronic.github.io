@@ -83,7 +83,6 @@ WorldofAI demonstrates deploying ByteBot OS using Docker Compose, advocating for
 ## Resources & Links
 
 - [https://patreon.com/WorldofAi](https://patreon.com/WorldofAi)
-- [https://ko-fi.com/worldofai](https://ko-fi.com/worldofai)
 - [https://twitter.com/intheworldofai](https://twitter.com/intheworldofai)
 - [https://scrimba.com/?via=worldofai](https://scrimba.com/?via=worldofai)
 - [https://intheworldofai.com/](https://intheworldofai.com/)

@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Peter H. Diamandis"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Data centers", "Entrepreneurship--Technological innovations", "Machine learning--Image processing"]
+tags = ["Artificial intelligence", "Data centers", "Entrepreneurship", "Technological innovations", "Machine learning--Image processing"]
 
 [extra]
 excerpt = "Peter H. Diamandis delivers a high-velocity, moonshot-focused analysis of the AI race, spotlighting Elon Musk's relentless, brute-force scaling strategy and the rapid democratization of AI tools. His perspective matters because he frames AI progress not as incremental, but as exponential leaps driven by audacious ambition and hardware supremacy, offering a playbook for those aiming to lead rather than follow."
@@ -90,9 +90,7 @@ Diamandis advocates for a moonshot methodology: set audacious goals (e.g., build
 - [https://openexo.com/10x-shift?video=PeterD062625](https://openexo.com/10x-shift?video=PeterD062625)
 - [https://qr.diamandis.com/twitter](https://qr.diamandis.com/twitter)
 - [https://x.com/davidblundin](https://x.com/davidblundin)
-- [https://www.linkedin.com/in/david-blundin/](https://www.linkedin.com/in/david-blundin/)
 - [https://www.alexwg.org](https://www.alexwg.org)
-- [https://www.linkedin.com/in/alexwg/](https://www.linkedin.com/in/alexwg/)
 - [https://x.com/alexwg](https://x.com/alexwg)
 - [https://qr.diamandis.com/applepodcast](https://qr.diamandis.com/applepodcast)
 - [https://qr.diamandis.com/spotifypodcast](https://qr.diamandis.com/spotifypodcast)

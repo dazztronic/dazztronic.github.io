@@ -85,10 +85,8 @@ Fahd demonstrates a step-by-step workflow: install Memori locally, configure it 
 
 ## Resources & Links
 
-- [https://ko-fi.com/fahdmirza](https://ko-fi.com/fahdmirza)
 - [https://bit.ly/fahd-mirza](https://bit.ly/fahd-mirza)
 - [https://www.eigent.ai](https://www.eigent.ai)
-- [https://www.linkedin.com/in/fahdmirza/](https://www.linkedin.com/in/fahdmirza/)
 - [https://www.youtube.com/@fahdmirza](https://www.youtube.com/@fahdmirza)
 - [https://www.fahdmirza.com](https://www.fahdmirza.com)
 - [https://github.com/GibsonAI/memori](https://github.com/GibsonAI/memori)

@@ -93,7 +93,6 @@ Wolfe's approach is to rapidly prototype a wide array of use cases, using Nano B
 - [https://www.facebook.com/mattrwolfe](https://www.facebook.com/mattrwolfe)
 - [https://instagram.com/mr.eflow](https://instagram.com/mr.eflow)
 - [https://www.threads.net/@mr.eflow](https://www.threads.net/@mr.eflow)
-- [https://www.linkedin.com/in/matt-wolfe-30841712/](https://www.linkedin.com/in/matt-wolfe-30841712/)
 - [Video URL](https://www.youtube.com/watch?v=exWEkRHmhKU)
 
 ## Value Assessment

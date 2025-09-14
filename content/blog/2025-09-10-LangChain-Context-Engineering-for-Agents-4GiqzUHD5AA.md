@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["LangChain"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Software engineering--Artificial intelligence", "Natural language processing", "Information retrieval"]
+tags = ["Artificial intelligence", "Software engineering", "Artificial intelligence", "Natural language processing", "Information retrieval"]
 
 [extra]
 excerpt = "Lance from LangChain reframes agent development as 'context engineering'—the deliberate, dynamic curation of what information fills an agent's context window at each step. His perspective is both practical and architectural, emphasizing modular strategies (writing, selecting, compressing, isolating) and mapping them directly to real-world agent workflows, with LangGraph designed to operationalize these patterns."

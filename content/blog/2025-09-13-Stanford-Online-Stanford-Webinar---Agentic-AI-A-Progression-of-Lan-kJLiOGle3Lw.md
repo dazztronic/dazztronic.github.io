@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Stanford Online"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Machine learning", "Natural language processing", "Software engineering--Artificial intelligence"]
+tags = ["Artificial intelligence", "Machine learning", "Natural language processing", "Software engineering"]
 
 [extra]
 excerpt = "This creator, presenting for Stanford Online, frames the evolution of language model usage through the lens of 'agentic AI'—emphasizing a progression from basic next-word prediction to sophisticated, agent-driven workflows. Their perspective is grounded in practical, iterative data-centric methods and a candid acknowledgment of the limitations and real-world challenges in deploying language models as agents. Their approach is especially valuable for practitioners seeking to bridge foundational language model concepts with actionable, agentic system design."

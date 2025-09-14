@@ -94,7 +94,6 @@ Their approach is to methodically test the new Codex CLI update, focusing on spe
 - [https://twitter.com/betterstackhq](https://twitter.com/betterstackhq)
 - [https://www.instagram.com/betterstackhq/](https://www.instagram.com/betterstackhq/)
 - [https://www.tiktok.com/@betterstack](https://www.tiktok.com/@betterstack)
-- [https://www.linkedin.com/company/betterstack](https://www.linkedin.com/company/betterstack)
 - [Video URL](https://www.youtube.com/watch?v=Szi4SHB4nNs)
 
 ## Value Assessment

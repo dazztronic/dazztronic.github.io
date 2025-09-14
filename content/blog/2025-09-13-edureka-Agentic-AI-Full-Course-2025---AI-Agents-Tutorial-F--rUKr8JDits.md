@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["edureka!"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Natural language processing", "Software engineering--Artificial intelligence", "Telemedicine"]
+tags = ["Artificial intelligence", "Natural language processing", "Software engineering", "Telemedicine"]
 
 [extra]
 excerpt = "Edureka's Agentic AI Full Course presents agentic AI as autonomous, goal-directed systems that can reason, plan, and act with minimal human input. The channel's distinctive value is a hands-on, instructor-led training path built around LangChain, RAG, and LLM-Ops, framed with practical, industry-ready workflows and a five-secrets framework for deploying autonomous agents."
@@ -105,11 +105,9 @@ Structured, instructor-led course with live labs and hands-on sessions; emphasis
 - [http://bit.ly/3tRxghg](http://bit.ly/3tRxghg)
 - [http://bit.ly/3EvUqP5](http://bit.ly/3EvUqP5)
 - [http://bit.ly/3GFHKYB](http://bit.ly/3GFHKYB)
-- [http://bit.ly/3Oubt8M](http://bit.ly/3Oubt8M)
 - [http://bit.ly/3i4P85F](http://bit.ly/3i4P85F)
 - [http://bit.ly/3Oud9PC](http://bit.ly/3Oud9PC)
 - [http://bit.ly/3OvueZy](http://bit.ly/3OvueZy)
-- [http://bit.ly/3tUAOiT](http://bit.ly/3tUAOiT)
 - [http://bit.ly/3tTWT0V](http://bit.ly/3tTWT0V)
 - [http://bit.ly/3AEq4c4](http://bit.ly/3AEq4c4)
 - [http://bit.ly/3UZPqJz](http://bit.ly/3UZPqJz)
@@ -119,7 +117,6 @@ Structured, instructor-led course with live labs and hands-on sessions; emphasis
 - [https://bit.ly/43vmME8](https://bit.ly/43vmME8)
 - [https://t.me/edurekaupdates](https://t.me/edurekaupdates)
 - [https://twitter.com/edurekain](https://twitter.com/edurekain)
-- [https://www.linkedin.com/company/edureka](https://www.linkedin.com/company/edureka)
 - [https://www.instagram.com/edureka_learning/](https://www.instagram.com/edureka_learning/)
 - [https://www.facebook.com/edurekaIN/](https://www.facebook.com/edurekaIN/)
 - [https://www.slideshare.net/EdurekaIN](https://www.slideshare.net/EdurekaIN)

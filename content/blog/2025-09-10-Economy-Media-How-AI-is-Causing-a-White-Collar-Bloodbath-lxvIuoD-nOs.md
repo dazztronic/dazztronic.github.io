@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Economy Media"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Labor market", "Occupational mobility", "Automation--Economic aspects"]
+tags = ["Artificial intelligence", "Labor market", "Occupational mobility", "Automation", "Economic aspects"]
 
 [extra]
 excerpt = "Economy Media delivers a stark, data-driven warning about the imminent and disproportionate impact of artificial intelligence on entry-level white collar jobs, framing the coming disruption as a 'bloodbath' that will fundamentally alter professional mobility. Their perspective stands out for its synthesis of hard economic data, real-time corporate behavior, and a focus on the cascading societal risks—especially for recent graduates and young professionals."

@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Cole Medin"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Information retrieval", "Knowledge representation (Information theory)", "Software engineering--Open source software"]
+tags = ["Artificial intelligence", "Information retrieval", "Knowledge representation (Information theory)", "Software engineering"]
 
 [extra]
 excerpt = "Cole Medin delivers a hands-on, deeply integrated approach to Retrieval-Augmented Generation (RAG) by fusing agentic RAG with knowledge graphs, offering a free, production-ready template. His perspective stands out for its practical, code-first orientation and his insistence on combining vector search with graph-based reasoning to unlock more powerful AI agents. Medin's workflow-centric demos and open-source ethos make his methodology both accessible and immediately actionable."

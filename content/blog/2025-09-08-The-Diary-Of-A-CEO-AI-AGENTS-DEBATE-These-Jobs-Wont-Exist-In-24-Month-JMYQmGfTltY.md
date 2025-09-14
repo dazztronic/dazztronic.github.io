@@ -84,7 +84,6 @@ Their solution is not a technical fix but a mindset and societal adaptation: emb
 
 ## Resources & Links
 
-- [https://bit.ly/100-ceos-megaphoneâ](https://bit.ly/100-ceos-megaphoneâ)
 - [https://bit.ly/3YFbJbt](https://bit.ly/3YFbJbt)
 - [https://g2ul0.app.link/f31dsUttKKb](https://g2ul0.app.link/f31dsUttKKb)
 - [https://bit.ly/diary-of-a-ceo-yt](https://bit.ly/diary-of-a-ceo-yt)
@@ -98,7 +97,6 @@ Their solution is not a technical fix but a mindset and societal adaptation: emb
 - [https://amzn.to/45aByEa](https://amzn.to/45aByEa)
 - [https://amzn.to/4dcJoPU](https://amzn.to/4dcJoPU)
 - [https://stevenbartlett.com/wp-content/uploads/2025/05/DOAC-AI-debate-Independent-Research-further-reading.pdf](https://stevenbartlett.com/wp-content/uploads/2025/05/DOAC-AI-debate-Independent-Research-further-reading.pdf)
-- [https://vivobarefoot.com/DOAC](https://vivobarefoot.com/DOAC)
 - [https://shopify.com/bartlett](https://shopify.com/bartlett)
 - [Video URL](https://www.youtube.com/watch?v=JMYQmGfTltY)
 

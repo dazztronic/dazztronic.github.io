@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["ZazenCodes"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Software engineering--Knowledge management systems", "Open source software", "Human-computer interaction"]
+tags = ["Artificial intelligence", "Software engineering", "Knowledge management systems", "Open source software", "Human-computer interaction"]
 
 [extra]
 excerpt = "ZazenCodes delivers a hands-on, step-by-step guide to integrating Obsidian with Claude Desktop via the MCP server, focusing on practical, real-world configuration and troubleshooting. Their perspective is grounded in direct experimentation, emphasizing transparency, tool interoperability, and actionable setup details for knowledge workers seeking to leverage AI with their personal notes."

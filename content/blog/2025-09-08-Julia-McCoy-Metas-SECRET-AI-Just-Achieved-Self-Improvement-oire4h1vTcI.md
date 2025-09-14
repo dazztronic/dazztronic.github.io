@@ -87,7 +87,6 @@ Julia's solution is to provide direct access to the same AI systems and workflow
 - [https://youtu.be/Zj9aaugTtR0](https://youtu.be/Zj9aaugTtR0)
 - [https://twitter.com/juliaemccoy/](https://twitter.com/juliaemccoy/)
 - [https://www.youtube.com/juliamccoy](https://www.youtube.com/juliamccoy)
-- [https://www.linkedin.com/in/juliaemccoy/](https://www.linkedin.com/in/juliaemccoy/)
 - [https://youtu.be/io1fU5lZthc](https://youtu.be/io1fU5lZthc)
 - [https://heygen.com/?sid=rewardful&via=julia-mccoy](https://heygen.com/?sid=rewardful&via=julia-mccoy)
 - [https://elevenlabs.io/?pscd=try.elevenlabs.io&ps_partner_key=MzVkN2QzNDdjNjc1&ps_xid=9bcZpC9imxInLI&gsxid=9bcZpC9imxInLI&gspk=MzVkN2QzNDdjNjc1](https://elevenlabs.io/?pscd=try.elevenlabs.io&ps_partner_key=MzVkN2QzNDdjNjc1&ps_xid=9bcZpC9imxInLI&gsxid=9bcZpC9imxInLI&gspk=MzVkN2QzNDdjNjc1)

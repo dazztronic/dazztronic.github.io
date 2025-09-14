@@ -84,7 +84,6 @@ Their methodology centers on: 1) always clarifying the real problem before jumpi
 ## Resources & Links
 
 - [https://www.fardjad.com](https://www.fardjad.com)
-- [https://www.linkedin.com/in/fardjad](https://www.linkedin.com/in/fardjad)
 - [Video URL](https://www.youtube.com/watch?v=R31bfG0jYfA)
 
 ## Value Assessment

@@ -5,8 +5,8 @@ draft = false
 
 [taxonomies]
 author = ["Content Renegade - Alex Brooks"]
-categories = ["Artificial intelligence--Security measures"]
-tags = ["Artificial intelligence--Security measures", "Artificial intelligence--Privacy", "Computer security", "Data protection"]
+categories = ["Artificial intelligence", "Security measures"]
+tags = ["Artificial intelligence", "Security measures", "Artificial intelligence--Privacy", "Computer security", "Data protection"]
 
 [extra]
 excerpt = "Meredith Whittaker, as relayed by Alex Brooks, delivers a sharp warning about the security and privacy risks posed by the rise of agentic AI—AI systems that act autonomously across user data and services. Her perspective is grounded in real-world, privacy-first messaging (Signal), making her critique uniquely practical and urgent for anyone building or deploying agentic AI. She exposes how the hype around AI agents threatens to erode fundamental boundaries between apps, operating systems, and user privacy."

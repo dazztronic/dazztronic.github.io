@@ -105,7 +105,6 @@ Wanderloots advocates a workflow where users upload or select their own sources,
 - [https://www.reddit.com/user/_wanderloots)](https://www.reddit.com/user/_wanderloots))
 - [https://dynamic.wakingup.com/guestpass/SC4914439)](https://dynamic.wakingup.com/guestpass/SC4914439))
 - [https://obsidian.md/)](https://obsidian.md/))
-- [https://prf.hn/l/lQ9DwpA)](https://prf.hn/l/lQ9DwpA))
 - [https://app.welltory.com/payments/plans/main/?coupon=wanderloots)](https://app.welltory.com/payments/plans/main/?coupon=wanderloots))
 - [https://amzn.to/3seSHv6)](https://amzn.to/3seSHv6))
 - [https://amzn.to/3TiWCT2)](https://amzn.to/3TiWCT2))

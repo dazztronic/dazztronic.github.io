@@ -91,7 +91,6 @@ Andress advocates for spec-driven development, where the process begins with wri
 - [https://twitter.com/betterstackhq](https://twitter.com/betterstackhq)
 - [https://www.instagram.com/betterstackhq/](https://www.instagram.com/betterstackhq/)
 - [https://www.tiktok.com/@betterstack](https://www.tiktok.com/@betterstack)
-- [https://www.linkedin.com/company/betterstack](https://www.linkedin.com/company/betterstack)
 - [Video URL](https://www.youtube.com/watch?v=em3vIT9aUsg)
 
 ## Value Assessment

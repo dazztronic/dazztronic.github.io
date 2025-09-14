@@ -83,7 +83,6 @@ Lovejoy advocates for a playbook that starts with defining user-critical metrics
 ## Resources & Links
 
 - [https://x.com/chrislovejoy_](https://x.com/chrislovejoy_)
-- [https://www.linkedin.com/in/dr-christopher-lovejoy/](https://www.linkedin.com/in/dr-christopher-lovejoy/)
 - [https://chrislovejoy.me/](https://chrislovejoy.me/)
 - [https://www.anterior.com/](https://www.anterior.com/)
 - [Video URL](https://www.youtube.com/watch?v=MRM7oA3JsFs)

@@ -70,7 +70,6 @@ The video presents a two-part solution: (1) guiding users to the paywall at the 
 
 ## Resources & Links
 
-- [https://www.make.com/en/register?promo=ailabs&utm_source=ailabs&utm_medium=influencer&utm_campaign=ailabs-first-aug25](https://www.make.com/en/register?promo=ailabs&utm_source=ailabs&utm_medium=influencer&utm_campaign=ailabs-first-aug25)
 - [https://discord.gg/eb3Bee53uf](https://discord.gg/eb3Bee53uf)
 - [https://www.youtube.com/watch?v=1_twhMU9AxM&list=PLjUMAIGgDkkmA0ljHP8Z1i5cbFa7r118g](https://www.youtube.com/watch?v=1_twhMU9AxM&list=PLjUMAIGgDkkmA0ljHP8Z1i5cbFa7r118g)
 - [Video URL](https://www.youtube.com/watch?v=Y2oK0nubq9A)

@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["Cole Medin"]
 categories = ["Artificial intelligence"]
-tags = ["Artificial intelligence", "Software engineering--Programming environments", "Computer software--Interoperability", "Open source software"]
+tags = ["Artificial intelligence", "Software engineering", "Computer software--Interoperability", "Open source software"]
 
 [extra]
 excerpt = "Cole Medin delivers a hands-on, systems-level breakdown of the Agent Client Protocol (ACP), positioning it as a transformative standard for integrating any AI coding assistant with any code editor. His perspective stands out for its practical, developer-centric focus—demystifying ACP's architecture, showing real-world workflows, and emphasizing the protocol's potential to unlock modular, customizable AI coding environments."
