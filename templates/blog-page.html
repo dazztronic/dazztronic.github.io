@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+{% block title %}{{ page.title }}{% endblock title %}
 
 <!-- Article-specific SEO Meta Tags -->
 {% block meta_description %}{{ page.extra.excerpt | default(value=config.extra.default_meta_description) }}{% endblock meta_description %}

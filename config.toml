@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://dazztronic.github.io"
 title = "dazztronic"
-description = "Expert insights and tutorials on PHP, Symfony, and modern backend development. Learn advanced programming techniques, best practices, and industry trends from experienced developers."
+description = "Leading AI Knowledge Extracted from YouTube Videos"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
