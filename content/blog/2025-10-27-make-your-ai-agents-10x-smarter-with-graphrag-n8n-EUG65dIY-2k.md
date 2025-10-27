@@ -1,6 +1,6 @@
 +++
 title = "Make your AI Agents 10x Smarter with GraphRAG (n8n)"
-date = 2025-07-30
+date = 2025-10-27
 draft = false
 
 [taxonomies]
