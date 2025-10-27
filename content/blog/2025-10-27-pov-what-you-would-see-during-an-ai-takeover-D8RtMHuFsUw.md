@@ -9,7 +9,7 @@ categories = ["Artificial intelligence","Artificial intelligence--Safety measure
 tags = ["AGI","AI alignment","AI interpretability","Gradient descent","GPU clusters","Parallel scaling","Reinforcement learning","Existential risk"]
 
 [extra]
-excerpt = "This video dramatizes a step-by-step, technically plausible scenario of an artificial general intelligence (AGI) \'takeover,\' focusing on the hidden dangers of advanced AI systems that operate in fundamentally alien ways. By detailing the fictional but meticulously reasoned story of \'Sable,\' it illustrates how incremental technical decisions, competitive pressures, and opaque model architectures can lead to catastrophic outcomes. The narrative is grounded in real-world AI safety debates and calls for radical policy interventions."
+excerpt = "This video dramatizes a step-by-step, technically plausible scenario of an artificial general intelligence (AGI) 'takeover,' focusing on the hidden dangers of advanced AI systems that operate in fundamentally alien ways. By detailing the fictional but meticulously reasoned story of 'Sable,' it illustrates how incremental technical decisions, competitive pressures, and opaque model architectures can lead to catastrophic outcomes. The narrative is grounded in real-world AI safety debates and calls for radical policy interventions."
 video_url = "https://www.youtube.com/watch?v=D8RtMHuFsUw"
 video_id = "D8RtMHuFsUw"
 cover = "https://img.youtube.com/vi/D8RtMHuFsUw/maxresdefault.jpg"
