@@ -1,5 +1,5 @@
 +++
-title = "DeepSeek R1 Lite: Open-Source AI That Might Beat OpenAI O1?"
+title = "DeepSeek R1 Lite: Open-Source AI That Might Beat OpenAI O1?"
 date = 2025-10-19
 draft = false
 
