@@ -5,11 +5,11 @@ draft = false
 
 [taxonomies]
 author = ["Super Data Science: ML & AI Podcast with Jon Krohn"]
-categories = []
-tags = []
+categories = ["Artificial intelligence","Machine learning","Operations research","Business enterprises--Data processing"]
+tags = ["Mathematical optimization","Linear programming","Mixed integer programming","SaaS","Subscription pricing","Skill development","Data science","AI engineering","Vendor support"]
 
 [extra]
-excerpt = "This episode distills hard-won wisdom from leaders navigating the relentless pace of AI-driven change, focusing on the necessity of 'rewiring' professional skills and the practical realities of implementing advanced analytics in industry. It highlights actionable frameworks for adapting to skill turnover, the expansion of AI roles, and real-world case studies where non-traditional teams successfully tackled complex optimization problems. The conversation is grounded in lived experience, offering both strategic mindset shifts and detailed operational tactics."
+excerpt = "This episode distills hard-won lessons from leaders navigating the relentless pace of AI-driven change, emphasizing the necessity of continuous skill rewiring and the strategic blending of human expertise with advanced optimization tools. It highlights real-world case studies where non-traditional teams successfully adopted mathematical optimization, and showcases a service model that fuses SaaS with deep, ongoing expert support. The perspective matters because it reframes AI disruption as an opportunity for those who embrace adaptability and cross-disciplinary learning, not just technical prowess."
 video_url = "https://www.youtube.com/watch?v=AKli1W9TdiQ"
 video_id = "AKli1W9TdiQ"
 cover = "https://img.youtube.com/vi/AKli1W9TdiQ/maxresdefault.jpg"
@@ -17,76 +17,76 @@ cover = "https://img.youtube.com/vi/AKli1W9TdiQ/maxresdefault.jpg"
 
 ## Overview
 
-This episode distills hard-won wisdom from leaders navigating the relentless pace of AI-driven change, focusing on the necessity of 'rewiring' professional skills and the practical realities of implementing advanced analytics in industry. It highlights actionable frameworks for adapting to skill turnover, the expansion of AI roles, and real-world case studies where non-traditional teams successfully tackled complex optimization problems. The conversation is grounded in lived experience, offering both strategic mindset shifts and detailed operational tactics.
+This episode distills hard-won lessons from leaders navigating the relentless pace of AI-driven change, emphasizing the necessity of continuous skill rewiring and the strategic blending of human expertise with advanced optimization tools. It highlights real-world case studies where non-traditional teams successfully adopted mathematical optimization, and showcases a service model that fuses SaaS with deep, ongoing expert support. The perspective matters because it reframes AI disruption as an opportunity for those who embrace adaptability and cross-disciplinary learning, not just technical prowess.
 
 ## 🔍 Key Insights & Learnings
 
 ### Creator's Unique Angle
-The perspective is rooted in the belief that the speed of change itself is the new challenge, requiring a continuous, almost existential willingness to 'rewire' skills and mindsets. Unlike typical advice, the approach frames skills as an ever-expanding universe—never obsolete, just increasingly diverse. There is a strong emphasis on optimism and agency: anyone can adapt, regardless of background, and organizations can build in-house capabilities for advanced analytics without relying solely on external hires.
+The approach is characterized by a pragmatic optimism: rather than fearing the pace of AI change, professionals are urged to become comfortable with perpetual skill expansion, likened to the ever-expanding universe. The methodology is distinctive in its advocacy for blending domain expertise with new technical skills, and for democratizing advanced optimization (traditionally reserved for operations research specialists) to data scientists through strong support structures. There's also a contrarian rejection of one-size-fits-all SaaS, favoring a hybrid services-plus-customization model with transparent, simple pricing.
 
 ### The Core Problem
-Professionals and organizations are struggling to keep pace with rapid AI advancements, facing anxiety over skill obsolescence, and uncertainty about how to practically adapt. The challenge is compounded by the high turnover rate of required skills (up to 30% every three years in AI-exposed industries) and the branching complexity of new AI roles and technologies.
+The central challenge is the rapid obsolescence and turnover of professional skills in AI-exposed industries, compounded by the complexity of integrating advanced optimization and AI into real business workflows. This matters because most organizations and individuals struggle to keep pace, risking irrelevance or inefficiency.
 
 ### The Solution Approach
-The methodology involves embracing the discomfort of constant change, treating skill development as a process of continuous expansion rather than replacement. Practically, this means fostering a culture of learning agility, leveraging support systems (like expert-backed SaaS platforms), and empowering non-traditional teams to tackle advanced problems (e.g., data scientists learning mathematical optimization). The approach blends tailored SaaS solutions with embedded expert support, using 't-shirt size' pricing for simplicity and scalability.
+The methodology involves embracing the discomfort of constant change, viewing skill development as an ongoing, universe-like expansion. Teams are encouraged to cross traditional boundaries—data scientists learning optimization, business SMEs engaging with AI tools—supported by expert guidance rather than left to sink or swim. The SaaS model is reimagined as a partnership: clients receive not just software, but embedded expert support and tailored solutions, all under a predictable subscription.
 
 ### Key Insights
-- Skill requirements in AI-exposed industries turn over at a rate of roughly 30% every three years, demanding proactive, ongoing learning.
-- Skills never truly become obsolete; instead, the universe of required capabilities continuously expands, creating new opportunities for those who adapt.
-- Non-traditional teams (e.g., data scientists without operations research backgrounds) can successfully solve complex optimization problems with the right support and mindset.
-- Generic, one-size-fits-all software is increasingly inadequate; bespoke, adaptable solutions with embedded expert support are now essential.
-- A personal 'AI detox'—engaging with non-AI content—can help maintain perspective and resilience amid rapid change.
+- Skill requirements in AI-exposed jobs turn over by 30% every three years, demanding a mindset of continuous learning.
+- Skills never disappear; they accumulate—old technical knowledge (like COBOL) still has value even as new branches (AI engineer, prompt engineering) emerge.
+- Teams without traditional operations research backgrounds can master mathematical optimization if they have access to the right support and learning resources.
+- Generic SaaS is obsolete; organizations need tailored AI solutions with embedded services and transparent, scalable pricing.
+- Compute capacity is doubling every six months, further accelerating the need for rapid adaptation.
 
 ### Concepts & Definitions
-- Rewiring professional skills: The process of continuously adapting and expanding one's skillset to match the evolving demands of AI and technology.
-- Skill turnover: The rate at which required professional skills change within a given industry, particularly pronounced in AI-exposed sectors.
-- T-shirt size pricing: A simplified, tiered pricing model based on the complexity of a solution, designed to make enterprise SaaS adoption transparent and scalable.
-- Operations research: A discipline involving advanced mathematical methods (e.g., linear programming) for decision-making and optimization, now increasingly accessible to data scientists.
+- "Rewiring professional skills" is framed as the ongoing, proactive adaptation to new technologies and methodologies, not just periodic upskilling.
+- The expansion of AI skills is likened to the universe's expansion: always growing, with new branches and unknowns.
+- Operations research is defined as the domain of mathematical optimization (linear/mixed integer programming), traditionally siloed from data science but now accessible.
 
 ### Technical Details & Implementation
-- Support systems staffed by PhDs in optimization are integrated into SaaS offerings, providing hands-on troubleshooting and guidance beyond basic customer service.
-- Pricing and solution delivery use a 't-shirt size' model (small, medium, large, extra large) based on use case complexity, with per-solution, per-year subscriptions and no hidden fees.
-- Teams leverage mathematical optimization (linear programming, mixed integer programming) alongside machine learning to solve supply chain and inventory problems.
-- Case studies include Toyota blending SME expertise with AI, and Total Wine's data scientists learning optimization in-house with vendor support.
+- Mathematical optimization (linear programming, mixed integer programming) was successfully adopted by data science teams lacking prior OR experience, using vendor support.
+- Support tickets are handled by PhDs or experts with decades of experience, not generic customer service.
+- Pricing is 't-shirt sized' (small/medium/large/x-large) per solution per year, with all customization and expert services included in the subscription.
+- Clients can scale from one to 15+ tailored solutions on the same platform without hidden costs.
 
 ### Tools & Technologies
-- Mathematical optimization frameworks (linear programming, mixed integer programming)
-- SaaS platforms with embedded expert support (e.g., Groi, Unframe)
-- Prompt engineering and code generation tools
-- AI platforms tailored for enterprise customization
+- Mathematical optimization platforms (vendor not named, but implied to be Gurobi or similar)
+- Custom SaaS platforms with embedded expert support
+- AI platforms tailored to enterprise workflows
 
 ### Contrarian Takes & Different Approaches
-- Contrary to popular belief, skills do not become obsolete; they accumulate and diversify, and even legacy skills (like COBOL programming) retain value.
-- Building in-house analytics capabilities is both feasible and preferable to outsourcing, even for teams lacking traditional backgrounds.
-- The real challenge is not learning new technologies, but adapting to the accelerating pace of change itself.
+- Rejects the idea that old skills become obsolete; instead, skills accumulate and diversify.
+- Argues that SaaS must be hybridized with services and customization, in contrast to the prevailing trend of pure productization.
+- Challenges the notion that only operations research specialists can handle optimization—data scientists can excel with the right support.
 
 ## 💡 Key Takeaways & Actionable Insights
 
 ### What You Should Do
-- Embrace discomfort and treat skill development as an ongoing, non-linear process—actively seek out new domains and learning opportunities.
-- Leverage vendor support and expert networks when tackling unfamiliar technical challenges, rather than defaulting to external hiring.
-- Adopt a modular, scalable approach to software adoption (e.g., t-shirt size pricing) to align investment with actual complexity and usage.
-- Encourage cross-disciplinary learning within teams, enabling data scientists to acquire optimization and operations research skills.
+- Adopt a mindset of continuous skill expansion; expect to learn new tools and concepts every few years.
+- If facing a new class of problems (e.g., supply chain optimization), don't default to hiring or outsourcing—consider upskilling your existing team with vendor support.
+- Demand transparent, all-inclusive pricing and embedded expert support when selecting AI/optimization platforms.
+- Leverage cross-disciplinary learning: data scientists can and should learn optimization, and business SMEs should engage with AI tools.
 
 ### What to Avoid
-- Relying solely on generic, one-size-fits-all software leads to poor fit and missed opportunities for differentiation.
-- Assuming skills become obsolete and discarding foundational knowledge is a mistake; older skills often remain relevant in new contexts.
-- Underestimating the learning curve for advanced analytics can result in project delays—plan for support and iterative learning.
+- Avoid complacency: assuming your current skills will remain relevant is a trap.
+- Don't expect generic SaaS to fit your business needs—one-size-fits-all solutions often fail in complex, evolving environments.
+- Underestimating the learning curve for new technical domains (like optimization) can lead to project delays or failures if support is lacking.
 
 ### Best Practices
-- Blend SaaS solutions with embedded, expert-led support to accelerate team upskilling and problem resolution.
-- Use transparent, tiered pricing models to simplify procurement and scale solutions as needs evolve.
-- Foster a culture of optimism and continuous learning, positioning rapid change as an opportunity rather than a threat.
+- Blend domain expertise with new technical skills for maximum impact.
+- Choose vendors who provide deep, ongoing expert support—not just software.
+- Implement t-shirt size pricing for clarity and scalability in enterprise AI/optimization projects.
+- Foster a culture where learning new skills is normalized and supported.
 
 ### Personal Stories & Experiences
-- Blend SaaS solutions with embedded, expert-led support to accelerate team upskilling and problem resolution.
-- Use transparent, tiered pricing models to simplify procurement and scale solutions as needs evolve.
-- Foster a culture of optimism and continuous learning, positioning rapid change as an opportunity rather than a threat.
+- Blend domain expertise with new technical skills for maximum impact.
+- Choose vendors who provide deep, ongoing expert support—not just software.
+- Implement t-shirt size pricing for clarity and scalability in enterprise AI/optimization projects.
+- Foster a culture where learning new skills is normalized and supported.
 
 ### Metrics & Examples
-- Skill turnover in AI-exposed industries is approximately 30% every three years.
-- Compute capacity is reportedly doubling every six months, intensifying the pace of change.
-- Total Wine's in-house optimization project resulted in significant, though unspecified, cost savings and reinvestment opportunities.
+- Skill turnover in AI-exposed jobs is approximately 30% every three years.
+- Compute capacity is doubling every six months.
+- Total Wine's data science team achieved significant cost savings (exact number not specified) by adopting optimization in-house.
 
 ## Resources & Links
 
@@ -95,4 +95,4 @@ The methodology involves embracing the discomfort of constant change, treating s
 ## Value Assessment
 
 - **Practical Value:** immediately actionable
-- **Uniqueness Factor:** fresh perspective
+- **Uniqueness Factor:** cutting-edge insight
