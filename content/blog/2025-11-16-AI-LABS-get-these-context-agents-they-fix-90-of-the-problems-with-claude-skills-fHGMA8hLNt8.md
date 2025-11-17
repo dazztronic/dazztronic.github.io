@@ -6,7 +6,7 @@ draft = false
 [taxonomies]
 author = ["AI LABS"]
 categories = ["Artificial intelligence","Software engineering--Automation","Business process automation","Data visualization"]
-tags = ["Claude Skills","Context agents","Automation","npm","Appify","Docker","GitHub Actions","CI\/CD","SEO optimization","Data analysis","Social media automation","Brand management"]
+tags = ["Claude Skills","Context agents","Automation","npm","Appify","Docker","GitHub Actions","CI/CD","SEO optimization","Data analysis","Social media automation","Brand management"]
 
 [extra]
 excerpt = "This video delivers a rapid-fire, hands-on exploration of how Claude Skills—Anthropic's modular context agents—can be used to automate and supercharge a wide spectrum of workflows, from code documentation and testing to brand management and personal planning. The focus is on practical, composable skill-building that transforms Claude from a generic assistant into a highly specialized, reusable workflow engine. The approach is notable for its breadth, specificity, and actionable demonstrations, making advanced AI automation accessible to both technical and non-technical users."
